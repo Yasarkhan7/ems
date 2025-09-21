@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "forems",
+  "homepage": "https://github.com/Yasarkhan7/ems#readme",
+  "bugs": {
+    "url": "https://github.com/Yasarkhan7/ems/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasarkhan7/ems.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
