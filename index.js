@@ -8,6 +8,6 @@ app.get('/',(req,res)=>{
     res.status(200).send({message:'hello'})
 })
 
-app.listen(process.env.PORT ||8080,()=>{
+app.listen(3000,()=>{
 console.log('listening...')
 })
