@@ -7,25 +7,26 @@ const pool = getDB.pool
 // const XLSX = require('xlsx');
 
 const jwt = require('jsonwebtoken');
+const { readFile } = require('xlsx');
 const KEY  = 'CC12FFJH12BUSPAS####@$!@12131'
 
 
-// pool.execute(`CREATE TABLE student (
-//     -- 'prn' (Permanent Registration Number) is a unique identifier.
-//     -- We'll use VARCHAR for flexibility and set it as the PRIMARY KEY.
-//     prn VARCHAR(255) NOT NULL PRIMARY KEY,
+pool.execute(`CREATE TABLE student (
+    prn VARCHAR(255) NOT NULL PRIMARY KEY,
     
-//     -- 'name' stores the student's full name.
-//     name VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL,
     
-//     -- 'created_on' automatically records the timestamp when the record is added.
-//     created_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-// );`,
-//    ).then(el=>{
-//     console.log(el[0])
-// })
-// INSERT INTO student (name, prn) 
-// VALUES ('Jane Doe', 'PRN-2023-12345');
+    created_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);`,
+   ).then(el=>{
+    console.log(el[0])
+
+    pool.execute(`INSERT INTO student (name, prn) 
+ VALUES (?, ?);
+`,["Yasar","PPOO1121334"])
+
+
+})
 
 // pool.execute( 'SELECT * FROM student',
 //    ).then(el=>{
@@ -54,14 +55,17 @@ app.get('/login',async (req,res)=>{
 })
 
 
+
 app.get('/getSubjects',async (req,res)=>{
 
     const {course,scheme,semester,branch} = req.query
    const data = require('../../data/subjects.json')
   let dat =  data?.[course]?.[branch]?.[semester]?.[scheme]
 
-  
+    if(dat)
    res.status(200).send(dat)
+else
+    res.status(500).send({message:'No data found !'})
 
 })
 
