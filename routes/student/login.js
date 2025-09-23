@@ -59,7 +59,7 @@ async function initializeDatabase() {
 }
 
 // Call the initialization function to set up the table on startup
-// initializeDatabase();
+initializeDatabase();
 
 // Route to add data from the Excel file
 app.post('/addData', async (req, res) => {
