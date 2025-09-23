@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel File Uploader</title>
+</head>
+<body>
+
+    <button id="uploadButton">Upload Excel File</button>
+
+    <input type="file" id="fileInput" accept=".xlsx, .xls" style="display: none;">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script>
+        // Function to convert Roman numerals to integers
+        function romanToInteger(roman) {
+            const map = {
+                'I': 1,
+                'II': 2,
+                'III': 3,
+                'IV': 4,
+                'V': 5,
+                'VI': 6,
+                'VII': 7,
+                'VIII': 8,
+                'IX': 9,
+                'X': 10
+            };
+            const upperCaseRoman = roman.toUpperCase();
+            return map[upperCaseRoman] || roman;
+        }
+
+        document.getElementById('uploadButton').addEventListener('click', function() {
+            document.getElementById('fileInput').click();
+        });
+
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const data = new Uint8Array(e.target.result);
+                    const workbook = XLSX.read(data, { type: 'array' });
+
+                    const sheetName = workbook.SheetNames[0];
+                    const worksheet = workbook.Sheets[sheetName];
+
+                    const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+                    const headers = jsonData[0];
+                    const tableData = jsonData.slice(1);
+
+                    const insertableHeaders = headers.filter(header => header.toLowerCase() !== 'pid');
+                    const headerMap = new Map(headers.map((h, i) => [h.toLowerCase(), i]));
+
+                    let query = `INSERT INTO students (${insertableHeaders.join(', ')}) VALUES `;
+                    const values = [];
+
+                    for (let i = 0; i < tableData.length; i++) {
+                        const row = tableData[i];
+                        const rowValues = [];
+                        
+                        for (const header of insertableHeaders) {
+                            const headerIndex = headerMap.get(header.toLowerCase());
+                            const value = row[headerIndex];
+                            
+                            const lowerCaseHeader = header.toLowerCase();
+
+                            if (value === null || value === undefined || value === "") {
+                                rowValues.push('NULL');
+                            } else if (lowerCaseHeader === 'year' || lowerCaseHeader === 'sem') {
+                                const integerValue = romanToInteger(value);
+                                rowValues.push(integerValue);
+                            } else if (lowerCaseHeader === 'dob' || lowerCaseHeader === 'tc_date' || lowerCaseHeader === 'p_date') {
+                                // ✅ Final Fix: Robust date handling for all formats
+                                let formattedDate = 'NULL';
+                                if (typeof value === 'number') {
+                                    // Handle numeric Excel dates
+                                    const date = new Date(Math.round((value - 25569) * 86400 * 1000));
+                                    if (!isNaN(date)) {
+                                        formattedDate = `'${date.toISOString().split('T')[0]}'`;
+                                    }
+                                } else if (typeof value === 'string') {
+                                    try {
+                                        let cleanDateString = value.split(' ')[0].replace(/[\.\/]/g, '-');
+                                        const dateParts = cleanDateString.split('-');
+
+                                        if (dateParts.length === 3) {
+                                            const [day, month, year] = dateParts;
+                                            const testDate = new Date(`${year}-${month}-${day}`);
+                                            // Validate the date to ensure it's not a garbage value
+                                            if (!isNaN(testDate)) {
+                                                formattedDate = `'${year}-${month}-${day}'`;
+                                            }
+                                        }
+                                    } catch (e) {
+                                        // On any parsing error, default to NULL
+                                        formattedDate = 'NULL';
+                                    }
+                                }
+                                rowValues.push(formattedDate);
+                            } else if (typeof value === 'string') {
+                                const sanitizedValue = value.replace(/'/g, "''");
+                                rowValues.push(`'${sanitizedValue}'`);
+                            } else {
+                                rowValues.push(`'${value}'`);
+                            }
+                        }
+                        values.push(`(${rowValues.join(', ')})`);
+                    }
+
+                    query += values.join(', ') + ';';
+                    console.log('Generated Query:', query);
+
+                    fetch('http://localhost:3000/student/addData', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ query: query })
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            return response.json().then(errorData => {
+                                throw new Error(errorData.message || `HTTP error! status: ${response.status}`);
+                            });
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        console.log('Backend response:', data);
+                        alert('File uploaded and data sent to the server!');
+                    })
+                    .catch(error => {
+                        console.error('Fetch error:', error);
+                        alert('An error occurred. Check the console for details.');
+                    });
+                };
+                reader.readAsArrayBuffer(file);
+            }
+        });
+    </script>
+</body>
+</html>

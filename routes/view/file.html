@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f7f9fc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+        .container {
+            background-color: white;
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            transition: all 0.3s ease;
+        }
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+        }
+        .upload-area {
+            border: 2px dashed #b1c9e8;
+            border-radius: 10px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .upload-area:hover {
+            background-color: #eaf1fa;
+        }
+        .upload-icon {
+            width: 50px;
+            height: 50px;
+            color: #4a90e2;
+            margin-bottom: 1rem;
+        }
+        .file-input {
+            display: none;
+        }
+        p {
+            margin: 0;
+            font-size: 1rem;
+            color: #666;
+        }
+        #uploadStatus {
+            margin-top: 1.5rem;
+            font-weight: 600;
+            color: #4a90e2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Upload an Image</h1>
+        <label for="fileInput" class="upload-area">
+            <svg class="upload-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12" />
+            </svg>
+            <p>Click to select a file or drag and drop here</p>
+        </label>
+        <input type="file" id="fileInput" class="file-input" accept="image/*">
+        <p id="uploadStatus"></p>
+    </div>
+
+    <script>
+        document.getElementById('fileInput').addEventListener('change', async (event) => {
+            const file = event.target.files[0];
+            if (!file) {
+                return;
+            }
+
+            const status = document.getElementById('uploadStatus');
+            status.textContent = 'Uploading...';
+            
+            // ✅ Key Change: Use FormData to send the file
+            const formData = new FormData();
+            formData.append('profileImage', file); // 'profileImage' is the key the backend will look for
+
+            try {
+                const response = await fetch('http://localhost:3000/student/uploadImage', {
+                    method: 'POST',
+                    body: formData // ✅ No Content-Type header needed; the browser sets it automatically
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    status.textContent = 'Upload successful!';
+                    console.log('Server response:', result);
+                } else {
+                    const error = await response.json();
+                    status.textContent = `Upload failed: ${error.message}`;
+                    console.error('Upload failed:', error);
+                }
+            } catch (error) {
+                status.textContent = 'An error occurred during upload.';
+                console.error('Network or server error:', error);
+            }
+        });
+    </script>
+</body>
+</html>
