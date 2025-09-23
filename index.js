@@ -4,7 +4,7 @@ const cors = require('cors')
 app.use(express.json())
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
-app.use(cors({origin:'https://mydomain.com'}))
+app.use(cors())
 
 const login = require('./routes/student/login')
 
