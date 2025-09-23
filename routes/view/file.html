@@ -99,7 +99,7 @@
             formData.append('profileImage', file); // 'profileImage' is the key the backend will look for
 
             try {
-                const response = await fetch('http://localhost:3000/student/uploadImage', {
+                const response = await fetch('http://84.247.137.44/student/uploadImage', {
                     method: 'POST',
                     body: formData // ✅ No Content-Type header needed; the browser sets it automatically
                 });

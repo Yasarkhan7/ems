@@ -9,7 +9,7 @@ pool =  getDB.pool;
 const KEY = 'CC12FFJH12BUSPAS####@$!@12131';
 
 // Middleware to parse JSON bodies with an increased size limit
-app.use(express.json({ limit: '50mb' }));
+app.use(express.json({ limit: '100mb' }));
 // A function to ensure the database is initialized before accepting requests
 async function initializeDatabase() {
     try {
