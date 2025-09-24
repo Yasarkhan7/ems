@@ -20,7 +20,7 @@ var admin = require("firebase-admin");
 
 
 
-app.get('/login', async (req, res) => {
+app.post('/login', async (req, res) => {
     const { email, password } = req.body;
     const data = require('../../data/allAdmin.json');
 
