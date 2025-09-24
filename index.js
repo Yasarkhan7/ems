@@ -13,7 +13,7 @@ const admins = require('./routes/admin/index')
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("../../credentials/fire.json");
+var serviceAccount = require("./credentials/fire.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),

@@ -3,6 +3,8 @@ const app = express.Router();
 const getDB = require('../../credentials/index');
 const jwt = require('jsonwebtoken');
 
+const cors = require('cors')
+
 app.use(express.json({ limit: '100mb' }))
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
@@ -68,15 +70,6 @@ app.post('/updateExam',async (req, res) => {
    
 });
 
-data={
-    fromYear:'',
-    toYear:'',
-    active:true,
-    applicationStart:'',
-    applicationEnd:'',
-    applicationFinal,
-    isWinter:true
-}
 
 app.get('/getExamStatus',async (req, res) => {
 
@@ -93,7 +86,7 @@ app.get('/getExamStatus',async (req, res) => {
         active:true,
         applicationStart:'',
         applicationEnd:'',
-        applicationFinal,
+        applicationFinal:'',
         isWinter:true
         }
        return  res.status(200).send(datas);
