@@ -74,9 +74,10 @@ app.post('/updateExam',async (req, res) => {
 app.get('/getExamStatus',async (req, res) => {
 
     try{
-        let tok = jwt.verify(req.query?.token)
+        let tok = jwt.verify(req.query?.token,KEY)
         const data = require('../../data/allAdmin.json');
 
+        console.log(tok)
         if(!data[tok.email])
             res.status(500).send({ message: 'Unrestricted !!' });
 
@@ -90,8 +91,8 @@ app.get('/getExamStatus',async (req, res) => {
         isWinter:true
         }
        return  res.status(200).send(datas);
-    }catch{
-        res.status(500).send({ message: 'Unrestricted !!' });
+    }catch(err){
+        res.status(500).send({ message: err });
 
     }
    
