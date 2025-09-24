@@ -38,9 +38,9 @@ app.post('/login', async (req, res) => {
             return res.status(404).send({ message: 'User not found.' });
         }
 
-        let token = jwt.sign({ ...admin}, KEY, { expiresIn: '1h' });
+        let token = jwt.sign({ email,access:admin.access}, KEY, { expiresIn: '1h' });
 
-        res.status(200).send({token});
+       return res.status(200).send({token});
     } catch (error) {
         console.error('Login error:', error);
         res.status(500).send({ message: 'An error occurred during login.' });
@@ -79,7 +79,7 @@ app.get('/getExamStatus',async (req, res) => {
 
         console.log(tok)
         if(!data[tok.email])
-            res.status(500).send({ message: 'Unrestricted !!' });
+         return    res.status(500).send({ message: 'Unrestricted !!' });
 
        let datas  = (await  admin.database().ref('/exam/config/status').get()).val() || {
         fromYear:'',
@@ -92,7 +92,7 @@ app.get('/getExamStatus',async (req, res) => {
         }
        return  res.status(200).send(datas);
     }catch(err){
-        res.status(500).send({ message: err });
+      return  res.status(500).send({ message: err });
 
     }
    
