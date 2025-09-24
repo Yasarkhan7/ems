@@ -185,4 +185,243 @@ app.get('/uploads/:filename',async (req, res) => {
     }
 });
 
+
+app.get('/getExamStatus',async (req, res) => {
+
+    try{
+        let tok = jwt.verify(req.query?.token,KEY)
+
+     
+       let datas  = (await  admin.database().ref('/exam/config/status').get()).val() || {
+        fromYear:'',
+        toYear:'',
+        active:true,
+        applicationStart:'',
+        applicationEnd:'',
+        applicationFinal:'',
+        isWinter:true
+        }
+
+        if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())
+            datas.active=true
+        else
+            datas.active=false
+
+       return  res.status(200).send(datas);
+    }catch(err){
+      return  res.status(500).send({ message: err });
+
+    }
+   
+});
+
+
+app.get('/submitApplication',async (req, res) => {
+
+    const body = req.body
+    try{
+        let tok = jwt.verify(req.query?.token,KEY)
+
+     let a =await   pool.execute(`INSERT INTO applications (
+  abc_id,
+  academic_year,
+  adhar_card_no,
+  branch,
+  c_address,
+  category,
+  city,
+  code_1,
+  code_2,
+  code_3,
+  code_4,
+  code_5,
+  code_6,
+  course,
+  dob,
+  email_id,
+  enrollment_no,
+  exam,
+  father_name,
+  fname,
+  full_name,
+  gender,
+  guardian_no,
+  handicap,
+  image_link,
+  lname,
+  mname,
+  mobile_no,
+  mother_name,
+  p_address,
+  p_code_1,
+  p_code_2,
+  p_code_3,
+  p_code_4,
+  pincode,
+  practical_1,
+  practical_2,
+  practical_3,
+  practical_4,
+  registration_no,
+  sem,
+  semester,
+  sign,
+  student_medium,
+  subject_1,
+  subject_2,
+  subject_3,
+  subject_4,
+  subject_5,
+  subject_6,
+  type,
+  year,
+  fee_amount,
+  paid_amount,
+  paid_date,
+  late_amount,
+  invoiceID,
+  status
+) VALUES (
+  ${body.abc_id ||''},
+ ${body.academic_year || new Date().getFullYear().toString()},
+         ${body.adhar_card_no ||'NULL'},
+ ${body.branch ||'NULL'},
+     ${body.c_address ||'NULL'},
+     ${body.category ||'NULL'},
+     ${body.city ||'NULL'},
+     ${body.code_1 ||'NULL'},
+          ${body.code_2 ||'NULL'},
+     ${body.code_3 ||'NULL'},
+     ${body.code_4 ||'NULL'},
+     ${body.code_5 ||'NULL'},
+     ${body.code_6 ||'NULL'},
+     ${body.course ||'NULL'},
+     ${body.dob ||'NULL'},
+     ${body.email_id ||'NULL'},
+     ${body.enrollment_no ||'NULL'},
+     ${body.exam ||'NULL'},
+     ${body.father_name ||'NULL'},
+
+          ${body.fname ||'NULL'},
+     ${body.full_name ||'NULL'},
+     ${body.gender ||'NULL'},
+     ${body.guardian_no ||'NULL'},
+     ${body.handicap ||'NULL'},
+     ${body.image_link ||'NULL'},
+     ${body.lname ||'NULL'},
+     ${body.mname ||'NULL'},
+     ${body.mobile_no ||'NULL'},
+     ${body.mother_name ||'NULL'},
+     ${body.p_address ||'NULL'},
+     ${body.p_code_1 ||'NULL'},
+     ${body.p_code_2 ||'NULL'},
+     ${body.p_code_3 ||'NULL'},
+     ${body.p_code_4 ||'NULL'},
+     ${body.pincode ||'NULL'},
+     ${body.practical_1 ||'NULL'},
+     ${body.practical_2||'NULL'},
+     ${body.practical_3 ||'NULL'},
+     ${body.practical_4 ||'NULL'},
+     ${body.registration_no ||'NULL'},
+     ${body.semester ||'NULL'},
+     ${body.sign ||'NULL'},
+     ${body.student_medium ||'NULL'},
+     ${body.subject_1 ||'NULL'},
+     ${body.subject_2 ||'NULL'},
+     ${body.subject_3 ||'NULL'},
+     ${body.subject_4 ||'NULL'},
+     ${body.subject_5 ||'NULL'},
+     ${body.subject_6 ||'NULL'},
+     ${body.type ||'NULL'},
+     ${body.fee_amount ||0},
+    ${body.paid_amount ||0},
+
+    ${body.paid_date ||0},
+     ${body.late_amount ||0},
+     ${body.invoiceID ||"NULL"},
+     PENDING
+);`).then(el=>{
+    console.log(el)
+})
+     
+       return  res.status(200).send({message:'Done'});
+    }catch(err){
+      return  res.status(500).send({ message: err });
+
+    }
+   
+});
+
+
 module.exports = app;
+
+
+
+async function createapplicationtable(){
+pool.execute(`
+CREATE TABLE IF NOT EXISTS applications (
+  id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  abc_id VARCHAR(255),
+  academic_year VARCHAR(255),
+  adhar_card_no VARCHAR(255),
+  branch VARCHAR(255),
+  c_address TEXT,
+  category VARCHAR(255),
+  city VARCHAR(255),
+  code_1 VARCHAR(255),
+  code_2 VARCHAR(255),
+  code_3 VARCHAR(255),
+  code_4 VARCHAR(255),
+  code_5 VARCHAR(255),
+  code_6 VARCHAR(255),
+  course VARCHAR(255),
+  dob VARCHAR(255),
+  email_id VARCHAR(255),
+  enrollment_no VARCHAR(255),
+  exam VARCHAR(255),
+  father_name VARCHAR(255),
+  fname VARCHAR(255),
+  full_name VARCHAR(255),
+  gender VARCHAR(255),
+  guardian_no VARCHAR(255),
+  handicap VARCHAR(255),
+  image_link VARCHAR(255),
+  lname VARCHAR(255),
+  mname VARCHAR(255),
+  mobile_no VARCHAR(255),
+  mother_name VARCHAR(255),
+  p_address TEXT,
+  p_code_1 VARCHAR(255),
+  p_code_2 VARCHAR(255),
+  p_code_3 VARCHAR(255),
+  p_code_4 VARCHAR(255),
+  pincode VARCHAR(255),
+  practical_1 VARCHAR(255),
+  practical_2 VARCHAR(255),
+  practical_3 VARCHAR(255),
+  practical_4 VARCHAR(255),
+  registration_no VARCHAR(255),
+  semester VARCHAR(255),
+  sign VARCHAR(255),
+  student_medium VARCHAR(255),
+  subject_1 VARCHAR(255),
+  subject_2 VARCHAR(255),
+  subject_3 VARCHAR(255),
+  subject_4 VARCHAR(255),
+  subject_5 VARCHAR(255),
+  subject_6 VARCHAR(255),
+  type VARCHAR(255),
+  created_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  fee_amount INT NOT NULL,
+  paid_amount INT,
+  paid_date VARCHAR(255),
+  late_amount INT,
+  invoiceID VARCHAR(255),
+  status VARCHAR(255)
+);`).then(el=>{
+    console.log(el)
+})
+
+}
+
+createapplicationtable()

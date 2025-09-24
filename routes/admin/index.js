@@ -55,16 +55,12 @@ app.post('/updateExam',async (req, res) => {
         const data = require('../../data/allAdmin.json');
 
         if(!data[tok.email])
-            res.status(500).send({ message: 'Unrestricted !!' });
+         return   res.status(500).send({ message: 'Unrestricted !!' });
 
-
-
-
-    
-
+      let datas =   (await  admin.database().ref('/exam/config/status').set(req.body)).val() 
 
     }catch{
-        res.status(500).send({ message: 'Unrestricted !!' });
+     return    res.status(500).send({ message: 'Unrestricted !!' });
 
     }
    
@@ -90,6 +86,12 @@ app.get('/getExamStatus',async (req, res) => {
         applicationFinal:'',
         isWinter:true
         }
+
+        if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())
+            datas.active=true
+        else
+            datas.active=false
+
        return  res.status(200).send(datas);
     }catch(err){
       return  res.status(500).send({ message: err });
@@ -118,7 +120,38 @@ app.get('/updateExamStatus',async (req, res) => {
 });
 
 
+app.get('/getPendingApplication',async (req, res) => {
 
+    try{
+        let tok = jwt.verify(req.query?.token,KEY)
+        const data = require('../../data/allAdmin.json');
+
+        console.log(tok)
+        if(!data[tok.email])
+         return    res.status(500).send({ message: 'Unrestricted !!' });
+
+       let datas  = (await  admin.database().ref('/exam/config/status').get()).val() || {
+        fromYear:'',
+        toYear:'',
+        active:true,
+        applicationStart:'',
+        applicationEnd:'',
+        applicationFinal:'',
+        isWinter:true
+        }
+
+        if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())
+            datas.active=true
+        else
+            datas.active=false
+
+       return  res.status(200).send(datas);
+    }catch(err){
+      return  res.status(500).send({ message: err });
+
+    }
+   
+});
 
 
 // const fs = require('fs');
