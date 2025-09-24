@@ -21,7 +21,7 @@ var admin = require("firebase-admin");
 
 
 app.get('/login', async (req, res) => {
-    const { email, password } = req.query;
+    const { email, password } = req.body;
     const data = require('../../data/allAdmin.json');
 
     if (!email || !password) {
