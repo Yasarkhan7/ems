@@ -137,15 +137,6 @@ app.get('/getStudentPersonalDetails', async (req, res) => {
     }
 });
 
-// View all students (for debugging or administrative purposes)
-app.get('/viewtoken', async (req, res) => {
-    try {
-        const [data] = await pool.execute('SELECT * FROM students');
-        res.status(200).send(data);
-    } catch (err) {
-        res.status(500).send({ message: err.message });
-    }
-});
 
 
 const multer = require('multer');
@@ -164,7 +155,10 @@ const storage = multer.diskStorage({
 
 
 app.post('/uploadImage',upload.single('profileImage'), async (req, res) => {
+    const { token } = req.query;
     try {
+       const decrypt =  jwt.verify(token, KEY);
+
         res.status(200).send(req.file.filename);
     } catch (err) {
         res.status(500).send({ message: err.message });
@@ -176,10 +170,10 @@ app.get('/uploads/:filename',async (req, res) => {
 
         const filePath = __dirname?.replace('/routes/student','')+'/uploads/'+ req.params.filename; // Construct the absolute file path
 
-        console.log(filePath)
+        // console.log(filePath)
     res.sendFile(filePath, (err) => {
         if (err) {
-            console.error('Error sending file:', err);
+            // console.error('Error sending file:', err);
             res.status(404).send({ message: 'File not found.' });
         }
     });
