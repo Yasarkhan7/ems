@@ -3,6 +3,12 @@ const app = express.Router();
 const getDB = require('../../credentials/index');
 const jwt = require('jsonwebtoken');
 
+app.use(express.json({ limit: '100mb' }))
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(cors())
+
+
 var pool ;
 pool =  getDB.pool;
 
