@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel File Uploader</title>
+</head>
+<body>
+
+    <button id="uploadButton">Upload Excel File</button>
+
+    <input type="file" id="fileInput" accept=".xlsx, .xls" style="display: none;">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script>
+        // Function to convert Roman numerals to integers
+    
+        document.getElementById('uploadButton').addEventListener('click', function() {
+            document.getElementById('fileInput').click();
+        });
+
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const data = new Uint8Array(e.target.result);
+                    const workbook = XLSX.read(data, { type: 'array' });
+
+                    const sheetName = workbook.SheetNames[2];
+                    const worksheet = workbook.Sheets[sheetName];
+
+                    const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+                    const headers = jsonData[0];
+                    const tableData = jsonData.slice(1);
+
+                    var datad = []
+                    tableData.forEach(el=>{
+                        let dat=Object.create({})
+
+                        headers.forEach((eli,ind)=>{
+                            dat[eli]=el[ind]
+                        })
+                        datad.push(dat)
+                    })
+                    console.log(JSON.stringify(datad))
+
+                };
+                reader.readAsArrayBuffer(file);
+            }
+        });
+    </script>
+</body>
+</html>

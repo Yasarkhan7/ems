@@ -33,7 +33,7 @@ app.post('/login', async (req, res) => {
         if(admin?.pass!=password)
             return res.status(400).send({ message: 'Restricted Access !!' });
 
-        console.log(data)
+        // console.log(data)
         if (!data) {
             return res.status(404).send({ message: 'User not found.' });
         }
@@ -154,20 +154,6 @@ app.get('/getPendingApplication',async (req, res) => {
 });
 
 
-// const fs = require('fs');
-// const path = require('path');
-
-
-// Middleware to parse JSON bodies with an increased size limit
 app.use(express.json({ limit: '100mb' }));
-
-// app.post('/updateExam')
-
-
-
-
-// Call the function to perform the update
-// updateUserInFile('./examconfig.json');
-
 
 module.exports = app;

@@ -13,11 +13,11 @@ app.use(express.json({ limit: '100mb' }));
 // A function to ensure the database is initialized before accepting requests
 async function initializeDatabase() {
     try {
-        console.log('Dropping old students table if it exists...');
+        // console.log('Dropping old students table if it exists...');
         await pool.execute('DROP TABLE IF EXISTS students;');
-        console.log('Old students table dropped.');
+        // console.log('Old students table dropped.');
 
-        console.log('Creating new students table...');
+        // console.log('Creating new students table...');
         await pool.execute(`
             CREATE TABLE students (
             pid INT NOT NULL AUTO_INCREMENT,
@@ -93,7 +93,7 @@ app.get('/login', async (req, res) => {
          
         const data = (await pool.execute('SELECT * FROM students WHERE enrollment_no = '+ prn))?.[0]?.[0]
 
-        console.log(data)
+        // console.log(data)
         if (!data) {
             return res.status(404).send({ message: 'User not found.' });
         }
@@ -109,20 +109,28 @@ app.get('/login', async (req, res) => {
 
 // Get subjects based on course details
 app.get('/getSubjects', async (req, res) => {
-    const { token, course, scheme, semester, branch } = req.query;
+    const { token,scheme, semester, branch } = req.query;
 
     try {
         jwt.verify(token, KEY);
         const data = require('../../data/subjects.json');
-        let dat = data?.[course]?.[branch]?.[semester]?.[scheme];
 
-        if (dat) {
-            res.status(200).send(dat);
+        const filt = []
+
+        data.forEach(el=>{
+            if(el.semester==semester && scheme==el.scheme && (!branch  || branch==el.branch))
+                filt.push(el)
+        })
+            //    console.log(filt)
+
+
+        if (filt.length>0) {
+            res.status(200).send(filt);
         } else {
             res.status(404).send({ message: 'No data found !' });
         }
     } catch (err) {
-        res.status(401).send({ message: 'Invalid or expired Token' });
+        res.status(401).send({ message: err });
     }
 });
 
