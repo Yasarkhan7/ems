@@ -7,6 +7,8 @@ var pool ;
 pool =  getDB.pool;
 
 const KEY = 'CC12FFJH12BUSPAS####@$!@12131';
+var admin = require("firebase-admin");
+
 
 // Middleware to parse JSON bodies with an increased size limit
 app.use(express.json({ limit: '100mb' }));
@@ -197,7 +199,7 @@ app.get('/uploads/:filename',async (req, res) => {
 app.get('/getExamStatus',async (req, res) => {
 
     try{
-        let tok = jwt.verify(req.query?.token,KEY)
+        // let tok = jwt.verify(req.query?.token,KEY)
 
      
        let datas  = (await  admin.database().ref('/exam/config/status').get()).val() || {
