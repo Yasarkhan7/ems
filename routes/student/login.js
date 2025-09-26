@@ -174,7 +174,7 @@ app.post('/submitApplication',async (req, res) => {
         let acedemic_year = datas.fromYear+'-'+datas.toYear
         let season = datas.isWinter?'Winter':'Summer'
 
-        
+        // body.prn='sdswdd'
         // console.log(acedemic_year,season)
         let apps  = (await admin.firestore().collection('applications').where('acedemic_year','==',acedemic_year).where('season','==',season).where('prn','==',body.prn ||'').count().get()).data().count
         if(apps)
@@ -193,8 +193,7 @@ app.post('/submitApplication',async (req, res) => {
  
        return  res.status(200).send({id:id,message:'Application submitted !!'});
     }catch(err){
-        console.log(err)
-      return  res.status(400).send({ message: err });
+      return  res.status(400).send({ message: JSON.stringify(err) });
 
     }
    
