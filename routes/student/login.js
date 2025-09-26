@@ -22,10 +22,13 @@ app.get('/login', async (req, res) => {
 
     try {
         // Use a parameterized query to prevent SQL injection
-         
-        const datae = (await admin.firestore().collection('students').where('enrollment_no','==',prn).get())
+                var datae = (await admin.firestore().collection('students').where('enrollment_no','==',parseInt(prn)).get())
 
-        // console.log(data)
+                if(datae.empty)
+                    datae = (await admin.firestore().collection('students').where('enrollment_no','==',prn).get())
+                    
+
+        // console.log(datae?.docs?.[0]?.data(),prn)
         if (datae.empty) {
             return res.status(404).send({ message: 'User not found.' });
         }
@@ -126,7 +129,7 @@ app.get('/uploads/:filename',async (req, res) => {
 app.get('/getExamStatus',async (req, res) => {
 
     try{
-        // let tok = jwt.verify(req.query?.token,KEY)
+        let tok = jwt.verify(req.query?.token,KEY)
 
      
        let datas  = (await  admin.database().ref('/exam/config/status').get()).val() || {
