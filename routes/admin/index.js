@@ -57,7 +57,9 @@ app.post('/updateExam',async (req, res) => {
         if(!data[tok.email])
          return   res.status(500).send({ message: 'Unrestricted !!' });
 
-      let datas =   (await  admin.database().ref('/exam/config/status').set(req.body)).val() 
+      let datas =   (await  admin.database().ref('/exam/config/status').set(req.body)).val()
+       
+      return    res.status(200).send({ message: 'Done !!' });
 
     }catch{
      return    res.status(500).send({ message: 'Unrestricted !!' });
@@ -148,6 +150,31 @@ app.get('/getPendingApplication',async (req, res) => {
        return  res.status(200).send(datas);
     }catch(err){
       return  res.status(500).send({ message: err });
+
+    }
+   
+});
+
+app.post('/createStudent',async (req, res) => {
+
+    const data = req.body
+    // console.log(data)
+
+    try{
+        let tok = jwt.verify(req.query?.token,KEY)
+
+        if(!data[tok.email])
+            return    res.status(500).send({ message: 'Unrestricted !!' });
+   
+        data.active=true
+        data.createdOn=Date.now()
+
+    data.forEach(async el=>{
+       let datas  = await  admin.firestore().collection('students').add(el)
+    })
+       return  res.status(200).send({message:'Done'});
+    }catch(err){
+      return  res.status(400).send({ message: err });
 
     }
    

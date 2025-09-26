@@ -20,6 +20,20 @@ admin.initializeApp({
   databaseURL: "https://ems-vmv-default-rtdb.asia-southeast1.firebasedatabase.app"
 });
 
+
+
+// (  admin.database().ref('/exam/config/status').set({
+//     fromYear:'2025',
+//     toYear:'2026',
+//     active:true,
+//     applicationStart:'2025-09-26',
+//     applicationEnd:'2025-10-26',
+//     applicationFinal:'2025-11-26',
+//     isWinter:true
+//     })).then(el=>{
+//         console.log(el)
+//     })
+
 const NodeCache = require('node-cache'); // Import the node-cache library
 const myCache = new NodeCache({ stdTTL: 60 });
 

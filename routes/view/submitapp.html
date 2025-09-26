@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Submission Form</title>
+    <!-- Use Tailwind CSS for a modern, responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for a cleaner look */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <!-- Main container for the form -->
+    <main class="bg-white p-8 rounded-2xl shadow-xl max-w-4xl w-full">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">Submit Application Data</h1>
+        <p class="text-gray-600 text-center mb-8">Fill out the form below to test the API endpoint. The data will be sent via a POST request.</p>
+
+        <!-- The form itself -->
+        <form id="applicationForm" class="space-y-6">
+
+            <!-- Personal Details Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <h2 class="col-span-1 md:col-span-2 text-xl font-semibold text-gray-700 border-b-2 border-gray-200 pb-2 mb-4">Personal Details</h2>
+                <div>
+                    <label for="full_name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                    <input type="text" id="full_name" name="full_name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="John David Doe">
+                </div>
+                <div>
+                    <label for="fname" class="block text-sm font-medium text-gray-700">First Name</label>
+                    <input type="text" id="fname" name="fname" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="John">
+                </div>
+                <div>
+                    <label for="mname" class="block text-sm font-medium text-gray-700">Middle Name</label>
+                    <input type="text" id="mname" name="mname" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="David">
+                </div>
+                <div>
+                    <label for="lname" class="block text-sm font-medium text-gray-700">Last Name</label>
+                    <input type="text" id="lname" name="lname" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Doe">
+                </div>
+                <div>
+                    <label for="father_name" class="block text-sm font-medium text-gray-700">Father's Name</label>
+                    <input type="text" id="father_name" name="father_name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Richard Doe">
+                </div>
+                <div>
+                    <label for="mother_name" class="block text-sm font-medium text-gray-700">Mother's Name</label>
+                    <input type="text" id="mother_name" name="mother_name" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Jane Doe">
+                </div>
+                <div>
+                    <label for="dob" class="block text-sm font-medium text-gray-700">Date of Birth</label>
+                    <input type="text" id="dob" name="dob" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" placeholder="YYYY-MM-DD" value="1995-10-27">
+                </div>
+                <div>
+                    <label for="gender" class="block text-sm font-medium text-gray-700">Gender</label>
+                    <select id="gender" name="gender" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+                        <option value="">Select Gender</option>
+                        <option value="Male" selected>Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mobile_no" class="block text-sm font-medium text-gray-700">Mobile No</label>
+                    <input type="text" id="mobile_no" name="mobile_no" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="1234567890">
+                </div>
+                <div>
+                    <label for="guardian_no" class="block text-sm font-medium text-gray-700">Guardian No</label>
+                    <input type="text" id="guardian_no" name="guardian_no" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="0987654321">
+                </div>
+                <div>
+                    <label for="email_id" class="block text-sm font-medium text-gray-700">Email ID</label>
+                    <input type="email" id="email_id" name="email_id" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="john.doe@example.com">
+                </div>
+                <div>
+                    <label for="adhar_card_no" class="block text-sm font-medium text-gray-700">Aadhar Card No</label>
+                    <input type="text" id="adhar_card_no" name="adhar_card_no" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="123456789012">
+                </div>
+                <div>
+                    <label for="handicap" class="block text-sm font-medium text-gray-700">Handicap</label>
+                    <input type="text" id="handicap" name="handicap" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="None">
+                </div>
+                <div>
+                    <label for="category" class="block text-sm font-medium text-gray-700">Category</label>
+                    <input type="text" id="category" name="category" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="General">
+                </div>
+            </div>
+
+            <!-- Academic Details Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6">
+                <h2 class="col-span-1 md:col-span-2 text-xl font-semibold text-gray-700 border-b-2 border-gray-200 pb-2 mb-4">Academic Details</h2>
+                <div>
+                    <label for="academic_year" class="block text-sm font-medium text-gray-700">Academic Year</label>
+                    <input type="text" id="academic_year" name="academic_year" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="2024-2025">
+                </div>
+                <div>
+                    <label for="registration_no" class="block text-sm font-medium text-gray-700">Registration No</label>
+                    <input type="text" id="registration_no" name="registration_no" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="REG12345">
+                </div>
+                <div>
+                    <label for="enrollment_no" class="block text-sm font-medium text-gray-700">Enrollment No</label>
+                    <input type="text" id="enrollment_no" name="enrollment_no" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="ENR67890">
+                </div>
+                <div>
+                    <label for="abc_id" class="block text-sm font-medium text-gray-700">ABC ID</label>
+                    <input type="text" id="abc_id" name="abc_id" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="ABC98765">
+                </div>
+                <div>
+                    <label for="course" class="block text-sm font-medium text-gray-700">Course</label>
+                    <input type="text" id="course" name="course" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Computer Science">
+                </div>
+                <div>
+                    <label for="branch" class="block text-sm font-medium text-gray-700">Branch</label>
+                    <input type="text" id="branch" name="branch" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Software Engineering">
+                </div>
+                <div>
+                    <label for="semester" class="block text-sm font-medium text-gray-700">Semester</label>
+                    <input type="text" id="semester" name="semester" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="3rd">
+                </div>
+                <div>
+                    <label for="exam" class="block text-sm font-medium text-gray-700">Exam</label>
+                    <input type="text" id="exam" name="exam" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Midterm">
+                </div>
+                <div>
+                    <label for="student_medium" class="block text-sm font-medium text-gray-700">Student Medium</label>
+                    <input type="text" id="student_medium" name="student_medium" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="English">
+                </div>
+            </div>
+
+            <!-- Address and Contact Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6">
+                <h2 class="col-span-1 md:col-span-2 text-xl font-semibold text-gray-700 border-b-2 border-gray-200 pb-2 mb-4">Address</h2>
+                <div>
+                    <label for="c_address" class="block text-sm font-medium text-gray-700">Current Address</label>
+                    <textarea id="c_address" name="c_address" rows="3" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">123 Main Street, Apt 4B</textarea>
+                </div>
+                <div>
+                    <label for="p_address" class="block text-sm font-medium text-gray-700">Permanent Address</label>
+                    <textarea id="p_address" name="p_address" rows="3" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">456 Oak Avenue, Springfield</textarea>
+                </div>
+                <div>
+                    <label for="city" class="block text-sm font-medium text-gray-700">City</label>
+                    <input type="text" id="city" name="city" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Springfield">
+                </div>
+                <div>
+                    <label for="pincode" class="block text-sm font-medium text-gray-700">Pincode</label>
+                    <input type="text" id="pincode" name="pincode" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="123456">
+                </div>
+            </div>
+
+            <!-- Fee and Other Details Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6">
+                <h2 class="col-span-1 md:col-span-2 text-xl font-semibold text-gray-700 border-b-2 border-gray-200 pb-2 mb-4">Payment & Other Details</h2>
+                <div>
+                    <label for="fee_amount" class="block text-sm font-medium text-gray-700">Fee Amount</label>
+                    <input type="number" id="fee_amount" name="fee_amount" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="5000">
+                </div>
+                <div>
+                    <label for="paid_amount" class="block text-sm font-medium text-gray-700">Paid Amount</label>
+                    <input type="number" id="paid_amount" name="paid_amount" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="5000">
+                </div>
+                <div>
+                    <label for="paid_date" class="block text-sm font-medium text-gray-700">Paid Date</label>
+                    <input type="text" id="paid_date" name="paid_date" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" placeholder="YYYY-MM-DD" value="2024-09-26">
+                </div>
+                <div>
+                    <label for="late_amount" class="block text-sm font-medium text-gray-700">Late Amount</label>
+                    <input type="number" id="late_amount" name="late_amount" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="0">
+                </div>
+                <div>
+                    <label for="invoiceID" class="block text-sm font-medium text-gray-700">Invoice ID</label>
+                    <input type="text" id="invoiceID" name="invoiceID" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="INV-00123">
+                </div>
+                <div>
+                    <label for="type" class="block text-sm font-medium text-gray-700">Type</label>
+                    <input type="text" id="type" name="type" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Online">
+                </div>
+                <div>
+                    <label for="image_link" class="block text-sm font-medium text-gray-700">Image Link</label>
+                    <input type="text" id="image_link" name="image_link" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="https://example.com/image1.jpg">
+                </div>
+                <div>
+                    <label for="sign" class="block text-sm font-medium text-gray-700">Sign</label>
+                    <input type="text" id="sign" name="sign" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="johndoe_signature.png">
+                </div>
+            </div>
+
+            <!-- Subject & Practical Details Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6">
+                <h2 class="col-span-1 md:col-span-2 text-xl font-semibold text-gray-700 border-b-2 border-gray-200 pb-2 mb-4">Subjects & Practicals</h2>
+                <div>
+                    <label for="subject_1" class="block text-sm font-medium text-gray-700">Subject 1</label>
+                    <input type="text" id="subject_1" name="subject_1" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Math">
+                </div>
+                <div>
+                    <label for="subject_2" class="block text-sm font-medium text-gray-700">Subject 2</label>
+                    <input type="text" id="subject_2" name="subject_2" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Physics">
+                </div>
+                <div>
+                    <label for="subject_3" class="block text-sm font-medium text-gray-700">Subject 3</label>
+                    <input type="text" id="subject_3" name="subject_3" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Chemistry">
+                </div>
+                <div>
+                    <label for="subject_4" class="block text-sm font-medium text-gray-700">Subject 4</label>
+                    <input type="text" id="subject_4" name="subject_4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Biology">
+                </div>
+                <div>
+                    <label for="subject_5" class="block text-sm font-medium text-gray-700">Subject 5</label>
+                    <input type="text" id="subject_5" name="subject_5" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="History">
+                </div>
+                <div>
+                    <label for="subject_6" class="block text-sm font-medium text-gray-700">Subject 6</label>
+                    <input type="text" id="subject_6" name="subject_6" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Literature">
+                </div>
+                <div>
+                    <label for="practical_1" class="block text-sm font-medium text-gray-700">Practical 1</label>
+                    <input type="text" id="practical_1" name="practical_1" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Physics Lab">
+                </div>
+                <div>
+                    <label for="practical_2" class="block text-sm font-medium text-gray-700">Practical 2</label>
+                    <input type="text" id="practical_2" name="practical_2" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Chemistry Lab">
+                </div>
+                <div>
+                    <label for="practical_3" class="block text-sm font-medium text-gray-700">Practical 3</label>
+                    <input type="text" id="practical_3" name="practical_3" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="CS Lab">
+                </div>
+                <div>
+                    <label for="practical_4" class="block text-sm font-medium text-gray-700">Practical 4</label>
+                    <input type="text" id="practical_4" name="practical_4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="Biology Lab">
+                </div>
+                <div>
+                    <label for="code_1" class="block text-sm font-medium text-gray-700">Code 1</label>
+                    <input type="text" id="code_1" name="code_1" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="MA101">
+                </div>
+                <div>
+                    <label for="code_2" class="block text-sm font-medium text-gray-700">Code 2</label>
+                    <input type="text" id="code_2" name="code_2" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="PH202">
+                </div>
+                <div>
+                    <label for="code_3" class="block text-sm font-medium text-gray-700">Code 3</label>
+                    <input type="text" id="code_3" name="code_3" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="CH303">
+                </div>
+                <div>
+                    <label for="code_4" class="block text-sm font-medium text-gray-700">Code 4</label>
+                    <input type="text" id="code_4" name="code_4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="BI404">
+                </div>
+                <div>
+                    <label for="code_5" class="block text-sm font-medium text-gray-700">Code 5</label>
+                    <input type="text" id="code_5" name="code_5" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="HI505">
+                </div>
+                <div>
+                    <label for="code_6" class="block text-sm font-medium text-gray-700">Code 6</label>
+                    <input type="text" id="code_6" name="code_6" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="LI606">
+                </div>
+                <div>
+                    <label for="p_code_1" class="block text-sm font-medium text-gray-700">P. Code 1</label>
+                    <input type="text" id="p_code_1" name="p_code_1" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="PL101">
+                </div>
+                <div>
+                    <label for="p_code_2" class="block text-sm font-medium text-gray-700">P. Code 2</label>
+                    <input type="text" id="p_code_2" name="p_code_2" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="CL202">
+                </div>
+                <div>
+                    <label for="p_code_3" class="block text-sm font-medium text-gray-700">P. Code 3</label>
+                    <input type="text" id="p_code_3" name="p_code_3" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="CSL303">
+                </div>
+                <div>
+                    <label for="p_code_4" class="block text-sm font-medium text-gray-700">P. Code 4</label>
+                    <input type="text" id="p_code_4" name="p_code_4" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500" value="BL404">
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <div class="pt-6">
+                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    Submit Application
+                </button>
+            </div>
+
+            <!-- Response message area -->
+            <div id="responseMessage" class="mt-4 p-4 rounded-md text-center hidden"></div>
+        </form>
+    </main>
+
+    <!-- The JavaScript to handle the form submission -->
+    <script>
+        const form = document.getElementById('applicationForm');
+        const responseMessage = document.getElementById('responseMessage');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault(); // Prevent the default form submission
+
+            // Show a loading message
+            responseMessage.textContent = 'Submitting...';
+            responseMessage.className = 'mt-4 p-4 rounded-md text-center text-indigo-700 bg-indigo-100 block';
+
+            // Gather all form data into an object
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            try {
+                // Make the POST request to the API endpoint
+                const response = await fetch('http://localhost:3000/student/submitApplication', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                // Check if the response was successful
+                if (response.ok) {
+                    const result = await response.json();
+                    responseMessage.textContent = result.message || 'Data submitted successfully!';
+                    responseMessage.className = 'mt-4 p-4 rounded-md text-center text-green-700 bg-green-100 block';
+                    form.reset(); // Clear the form after a successful submission
+                } else {
+                    const error = await response.json();
+                    responseMessage.textContent = error.message || 'An error occurred during submission.';
+                    responseMessage.className = 'mt-4 p-4 rounded-md text-center text-red-700 bg-red-100 block';
+                }
+            } catch (error) {
+                console.error('Submission failed:', error);
+                responseMessage.textContent = 'Submission failed: ' + error.message;
+                responseMessage.className = 'mt-4 p-4 rounded-md text-center text-red-700 bg-red-100 block';
+            }
+        });
+    </script>
+
+</body>
+</html>
