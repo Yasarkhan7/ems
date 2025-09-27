@@ -46,7 +46,7 @@ app.get('/getSubjects', async (req, res) => {
     const { token,scheme, semester, branch } = req.query;
 
     try {
-        jwt.verify(token, KEY);
+        // jwt.verify(token, KEY);
         const data = require('../../data/subjects.json');
 
         const filt = []
@@ -62,6 +62,7 @@ app.get('/getSubjects', async (req, res) => {
             res.status(404).send({ message: 'No data found !' });
         }
     } catch (err) {
+        console.log(err)
         res.status(401).send({ message: err });
     }
 });
