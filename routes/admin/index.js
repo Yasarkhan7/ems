@@ -25,19 +25,21 @@ app.post('/login', async (req, res) => {
     const data = require('../../data/allAdmin.json');
 
     if (!email || !password) {
-        return res.status(400).send({ message: 'Restricted Access !!' });
+        return res.status(400).send({ message: 'Email Password Not valid' });
     }
+
+           // console.log(data)
+           if (!data) {
+            return res.status(404).send({ message: 'User not found.' });
+        } 
+
     try {
         var admin = data[email]
 
         if(admin?.pass!=password)
-            return res.status(400).send({ message: 'Restricted Access !!' });
+            return res.status(400).send({ message: 'Incorrect Password !!' });
 
-        // console.log(data)
-        if (!data) {
-            return res.status(404).send({ message: 'User not found.' });
-        }
-
+ 
         let token = jwt.sign({ email,access:admin.access}, KEY, { expiresIn: '1h' });
 
        return res.status(200).send({token});
@@ -122,38 +124,6 @@ app.get('/updateExamStatus',async (req, res) => {
 });
 
 
-app.get('/getPendingApplication',async (req, res) => {
-
-    try{
-        let tok = jwt.verify(req.query?.token,KEY)
-        const data = require('../../data/allAdmin.json');
-
-        console.log(tok)
-        if(!data[tok.email])
-         return    res.status(500).send({ message: 'Unrestricted !!' });
-
-       let datas  = (await  admin.database().ref('/exam/config/status').get()).val() || {
-        fromYear:'',
-        toYear:'',
-        active:true,
-        applicationStart:'',
-        applicationEnd:'',
-        applicationFinal:'',
-        isWinter:true
-        }
-
-        if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())
-            datas.active=true
-        else
-            datas.active=false
-
-       return  res.status(200).send(datas);
-    }catch(err){
-      return  res.status(500).send({ message: err });
-
-    }
-   
-});
 
 app.post('/createStudent',async (req, res) => {
 
@@ -163,7 +133,9 @@ app.post('/createStudent',async (req, res) => {
     try{
         let tok = jwt.verify(req.query?.token,KEY)
 
-        if(!data[tok.email])
+        const dataa = require('../../data/allAdmin.json');
+
+        if(!dataa[tok.email])
             return    res.status(500).send({ message: 'Unrestricted !!' });
    
         data.active=true
@@ -180,6 +152,27 @@ app.post('/createStudent',async (req, res) => {
    
 });
 
+
+app.post('/getAllApplications',async (req, res) => {
+
+    const  {scheme,branch,semester,exam,prn}=req.query
+    const data = require('../../data/allAdmin.json');
+    // console.log(data)
+
+    try{
+        let tok = jwt.verify(req.query?.token,KEY)
+
+        if(!data[tok.email])
+            return    res.status(500).send({ message: 'Unrestricted !!' });
+   
+       let datas  = await  admin.firestore().collection('students').get()
+       return  res.status(200).send({message:datas});
+    }catch(err){
+      return  res.status(400).send({ message: err });
+
+    }
+   
+});
 
 app.use(express.json({ limit: '100mb' }));
 

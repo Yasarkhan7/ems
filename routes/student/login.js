@@ -162,6 +162,8 @@ app.post('/submitApplication',async (req, res) => {
     const body = req.body
     try{
 
+        let tok = jwt.verify(req.query?.token,KEY)
+
         let datas  = (await  admin.database().ref('/exam/config/status').get()).val()
         if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())
             datas.active=true
@@ -169,7 +171,7 @@ app.post('/submitApplication',async (req, res) => {
             datas.active=false
 
             if(!datas.active)
-                return  res.status(400).send({ message: 'Application Expired !!' });
+                return  res.status(401).send({ message: 'Application Expired !!',status:401 });
     
 
         let acedemic_year = datas.fromYear+'-'+datas.toYear
@@ -177,9 +179,9 @@ app.post('/submitApplication',async (req, res) => {
 
         // body.prn='sdswdd'
         // console.log(acedemic_year,season)
-        let apps  = (await admin.firestore().collection('applications').where('acedemic_year','==',acedemic_year).where('season','==',season).where('prn','==',body.prn ||'').count().get()).data().count
+        let apps  = (await admin.firestore().collection('applications').where('acedemic_year','==',acedemic_year).where('season','==',season).where('prn','==',body.prn ||'').where('exam','==',body.exam ||'').where('semester','==',body.semester ||'').count().get()).data().count
         if(apps)
-            return res.status(401).send({ message: 'Form already Submitted !!' })
+            return res.status(402).send({ message: 'Form already Submitted !!' ,status:402})
 
       
             body.status = 'PENDING'
@@ -189,13 +191,26 @@ app.post('/submitApplication',async (req, res) => {
 
             // let id ='asas'
 
+
             let id = (await admin.firestore().collection('applications').add(body)).id
 
+                
+            let docs = (await admin.firestore().collection('students').where('enrollment_no','in',[body.prn,parseInt(body.prn),parseInt(body.emrollment_no),body.emrollment_no,]).get())
+
+            if(!docs.empty){
+
+               let headers =  ["registration_no",	"full_name",	"fname",	"mname",	"lname",	"dob",	"gender",	"mobile_no",	"email_id",	"category",	"father_name",	"mother_name",	"guradian_no",	"enrollment_no",	"adhar_card_no",	"c_address",	"city",	"pincode",	"handicap",	"student_medium"]
+
+               let dat=Object.create({})
+               headers.forEach(el=>{
+                dat[el]=body[el]
+               })
+              let a  =   admin.firestore().doc('students/'+docs?.[0].id).set(dat,{merge:true})
+            }
  
        return  res.status(200).send({id:id,message:'Application submitted !!'});
     }catch(err){
-      return  res.status(400).send({ message: JSON.stringify(err) });
-
+      return  res.status(400).send({ message: 'Token Expired !!',status:400 });
     }
    
 });
