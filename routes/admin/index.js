@@ -169,11 +169,15 @@ app.post('/getAllApplications',async (req, res) => {
         if(!data[tok.email])
             return    res.status(500).send({ message: 'Unrestricted !!' });
 
-
-   
         let q = admin.firestore().collection('students').where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',exam).where('scheme','==',scheme).where('branch','==',branch).where('semester','==',semester)
-    //    let datas  = await  .get()
-       return  res.status(200).send({message:datas});
+
+        if(prn)
+            q.where('prn','==',prn)
+        let dat = []
+       ;(await  q.get()).forEach(eli=>{
+        dat.push({...eli.data(),id:eli.id})
+       })
+       return  res.status(200).send(dat);
     }catch(err){
       return  res.status(400).send({ message: err });
 

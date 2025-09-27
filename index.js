@@ -42,6 +42,9 @@ app.use('/admin',admins)
         //   console.log(el)
         // })
 
+                    // let docs = (await admin.firestore().collection('students').where('enrollment_no','in',[body.prn,parseInt(body.prn),parseInt(body.emrollment_no),body.emrollment_no,]).get())
+
+
 app.listen(3000,()=>{
 console.log('listening...')
 })
