@@ -153,19 +153,26 @@ app.post('/createStudent',async (req, res) => {
 });
 
 
+const NodeCache = require('node-cache'); // Import the node-cache library
+const myCache = new NodeCache({ stdTTL: 60 });
+
+
 app.post('/getAllApplications',async (req, res) => {
 
-    const  {scheme,branch,semester,exam,prn}=req.query
+    const  {scheme,branch,semester,exam,prn,season,acedemic_year}=req.query
     const data = require('../../data/allAdmin.json');
     // console.log(data)
-
+ 
     try{
         let tok = jwt.verify(req.query?.token,KEY)
 
         if(!data[tok.email])
             return    res.status(500).send({ message: 'Unrestricted !!' });
+
+
    
-       let datas  = await  admin.firestore().collection('students').get()
+        let q = admin.firestore().collection('students').where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',exam).where('scheme','==',scheme).where('branch','==',branch).where('semester','==',semester)
+    //    let datas  = await  .get()
        return  res.status(200).send({message:datas});
     }catch(err){
       return  res.status(400).send({ message: err });

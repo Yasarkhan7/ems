@@ -34,13 +34,13 @@ admin.initializeApp({
 //         console.log(el)
 //     })
 
-const NodeCache = require('node-cache'); // Import the node-cache library
-const myCache = new NodeCache({ stdTTL: 60 });
-
 
 app.use('/student',login)
 app.use('/admin',admins)
 
+        // let apps  = ( admin.firestore().collection('applications').where('acedemic_year','==','2025-2026').where('season','==','Winter').where('prn','==','').where('exam','==','Regular').where('semester','==', '2').count().get()).then(el=>{
+        //   console.log(el)
+        // })
 
 app.listen(3000,()=>{
 console.log('listening...')
