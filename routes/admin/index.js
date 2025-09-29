@@ -159,9 +159,8 @@ const myCache = new NodeCache({ stdTTL: 60 });
 
 app.post('/getAllApplications',async (req, res) => {
 
-    const  {scheme,branch,semester,exam,prn,season,acedemic_year}=req.query
+    const  {scheme,branch,semester,exam,prn,season,acedemic_year}=req.body
     const data = require('../../data/allAdmin.json');
-    // console.log(data)
  
     try{
         let tok = jwt.verify(req.query?.token,KEY)
@@ -169,17 +168,20 @@ app.post('/getAllApplications',async (req, res) => {
         if(!data[tok.email])
             return    res.status(500).send({ message: 'Unrestricted !!' });
 
-        let q = admin.firestore().collection('students').where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',exam).where('scheme','==',scheme).where('branch','==',branch).where('semester','==',semester)
+        console.log(req.body)
+
+        let q = admin.firestore().collection('applications').where('status','==',req.query?.mode ||'PENDING').where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',exam).where('type','==',scheme).where('branch','==',branch).where('semester','==',semester)
 
         if(prn)
             q.where('prn','==',prn)
         let dat = []
        ;(await  q.get()).forEach(eli=>{
+        // console.log(eli.data())
         dat.push({...eli.data(),id:eli.id})
        })
        return  res.status(200).send(dat);
     }catch(err){
-      return  res.status(400).send({ message: err });
+      return  res.status(400).send({ message: 'Token expired !!' });
 
     }
    

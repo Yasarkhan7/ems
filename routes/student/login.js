@@ -177,7 +177,7 @@ app.post('/submitApplication',async (req, res) => {
         else
             datas.active=false
 
-            if(!datas.active)
+            if(!datas.active || Object.keys(req.body ||'{}').length==0)
                 return  res.status(401).send({ message: 'Application Expired !!',status:401 });
     
 
