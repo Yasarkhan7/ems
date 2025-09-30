@@ -45,7 +45,7 @@ app.get('/login', async (req, res) => {
 app.get('/getSubjects', async (req, res) => {
     const { token,scheme, semester, branch } = req.query;
 
-    console.log(scheme,semester,branch)
+    // console.log(scheme,semester,branch)
     try {
         jwt.verify(token, KEY);
         const data = require('../../data/subjects.json');
@@ -56,7 +56,7 @@ app.get('/getSubjects', async (req, res) => {
         data.forEach(el=>{
             // if(scheme==el.scheme)
                 // console.log(el.scheme)
-            if(el.semester==semester && scheme==el.scheme && (!branch  || branch==el.branch))
+            if((el.semester==semester && scheme==el.scheme) )
                 filt.push(el)
         })
   

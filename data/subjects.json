@@ -11433,7 +11433,7 @@
         "code": "TY5ELBENG",
         "head": "American Literature",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11443,7 +11443,7 @@
         "code": "TY5ELBMAR",
         "head": "ग्रामीण साहित्य ",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11453,7 +11453,7 @@
         "code": "TY5ELBHIN",
         "head": "यात्रा वर्णन संस्मरण",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11463,7 +11463,7 @@
         "code": "TY5ELBSAN",
         "head": "दर्शन (Philosophy) – 1 ",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11473,7 +11473,7 @@
         "code": "TY5ELBURD",
         "head": "Rhetoric –I ",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11483,7 +11483,7 @@
         "code": "TY5ELBPER",
         "head": "Special Study of Ameer Khusrau",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11493,7 +11493,7 @@
         "code": "TY5ELCPOL",
         "head": "Good Governance & E governance",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11503,7 +11503,7 @@
         "code": "TY5ELBPHI ",
         "head": "Indian Metaphysics",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11513,7 +11513,7 @@
         "code": "TY5ELBHIS ",
         "head": "History of Ancient Maharashtra (From Earliest time to 1296 C.E.",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -11523,7 +11523,7 @@
         "code": "TY5ELBECO ",
         "head": "Basic Statistics",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "NO",
@@ -12193,7 +12193,7 @@
         "code": "TY5ELBBOT ",
         "head": "Molecular Biology and Biotechnology - I ",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12203,7 +12203,7 @@
         "code": "TY5ELBCHE",
         "head": "Polymer Chemistry- I ",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12213,7 +12213,7 @@
         "code": "TY5ELBZOO",
         "head": "Basic Entomology",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12223,7 +12223,7 @@
         "code": "TY5ELBSTT",
         "head": "Partial and Multiple Correlation And Regression",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12233,7 +12233,7 @@
         "code": "TY5ELBPHY",
         "head": "Atomic Spectroscopy",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12243,7 +12243,7 @@
         "code": "TY5ELBMTH",
         "head": "Mathematical Modelling",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12253,7 +12253,7 @@
         "code": "TY5ELBTXT",
         "head": "Indian Costumes",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12263,7 +12263,7 @@
         "code": "TY5ELBCOM ",
         "head": "Windows Application Development",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12273,7 +12273,7 @@
         "code": "TY5ELBELC",
         "head": "Introductions to Photonics",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12283,7 +12283,7 @@
         "code": "TY5ELBGEO ",
         "head": "Agriculture Geography",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12293,7 +12293,7 @@
         "code": "TY5ELBMUS",
         "head": "Practical & Theoretical Study of Indian Folk Music- 1",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -12303,7 +12303,7 @@
         "code": "TY5ELBPSY",
         "head": "Educational Psychology-I",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(B)",
+        "sub_type": "ELECTIVE(A)",
         "semester": "5",
         "scheme": "UG-NEP-OLD",
         "practical": "YES",
@@ -14573,7 +14573,7 @@
         "code": "PG1EL02MAR",
         "head": "दलित साहित्य",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -14583,7 +14583,7 @@
         "code": "PG1EL02HIN",
         "head": "अनुदित साहित्य",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -14593,7 +14593,7 @@
         "code": "PG1EL02ENG",
         "head": "Comparative  Literature",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -14603,7 +14603,7 @@
         "code": "PG1EL02SAN",
         "head": "दर्शनशास्त्रम्-1",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -14613,7 +14613,7 @@
         "code": "PG1EL02URD",
         "head": "Special Study of Faiz",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -14623,7 +14623,7 @@
         "code": "PG1EL02ECO",
         "head": "Stock Market & Financial Literacy",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -14633,7 +14633,7 @@
         "code": "PG1EL02POL",
         "head": "Civil society & democracy",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -14643,7 +14643,7 @@
         "code": "PG1EL02PHI",
         "head": "Vedanta Philosophy",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -14653,7 +14653,7 @@
         "code": "PG1EL02HIS",
         "head": "Women in India (From Earliest Time to1947 C.E.)",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -15153,7 +15153,7 @@
         "code": "PG1EL02GEO",
         "head": "ii)Population Geography",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15163,7 +15163,7 @@
         "code": "PG1EL02MUS",
         "head": "2) Indian Film Music",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15173,7 +15173,7 @@
         "code": "PG1EL02PSY",
         "head": "Child Developmental Psychology-I",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15183,7 +15183,7 @@
         "code": "PG1EL02BOT",
         "head": "Angiosperm systematics",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15193,7 +15193,7 @@
         "code": "PG1EL02CHE",
         "head": "Nuclear  Chemistry",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15203,7 +15203,7 @@
         "code": "PG1EL02ZOO",
         "head": "Molecular Biology-I",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15213,7 +15213,7 @@
         "code": "PG1EL02MAT",
         "head": "Graph Theory",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15223,7 +15223,7 @@
         "code": "PG1EL02STT",
         "head": "Sampling Theory",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15233,7 +15233,7 @@
         "code": "PG1EL02PHY",
         "head": "Experimental Techniques In Physics",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15243,7 +15243,7 @@
         "code": "PG1EL02 TXT",
         "head": "Non-Woven Textiles",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "1",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15753,7 +15753,7 @@
         "code": "PG2EL04BOT",
         "head": "Modern trends in Angiosperm systematics",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15763,7 +15763,7 @@
         "code": "PG2EL04CHE",
         "head": "Thermodynamics",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15773,7 +15773,7 @@
         "code": "PG2EL04GEO",
         "head": "Economic Geography",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15783,7 +15783,7 @@
         "code": "PG2EL04MAT",
         "head": "Operations Research",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15793,7 +15793,7 @@
         "code": "PG2EL04MUS",
         "head": "Bhajan",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15803,7 +15803,7 @@
         "code": "PG2EL04PHY",
         "head": "Laser and Its applications.",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15813,7 +15813,7 @@
         "code": "PG2EL04PSY",
         "head": "Child Developmental Psychology-II",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15823,7 +15823,7 @@
         "code": "PG2EL04STT",
         "head": "Advanced Estimation Theory",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15833,7 +15833,7 @@
         "code": "PG2EL04ZOO",
         "head": "Molecular Biology-II",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -15843,7 +15843,7 @@
         "code": "PG2EL04TXT",
         "head": "Garment Production Management",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -16313,7 +16313,7 @@
         "code": "PG2EL04MAR",
         "head": "लेखकाचाविशेषअभ्यास(अर्वाचीन ) - /रंगनाथपठारे",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -16323,7 +16323,7 @@
         "code": "PG2EL04HIN",
         "head": "प्रवासी साहित्य",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -16333,7 +16333,7 @@
         "code": "PG2EL04SAN",
         "head": "दर्शन शास्त्रम II",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -16343,7 +16343,7 @@
         "code": "PG2EL04ENG",
         "head": "Indian Literature in English",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -16353,7 +16353,7 @@
         "code": "PG2EL04URD",
         "head": "Special Study of Shibli",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -16363,7 +16363,7 @@
         "code": "PG2EL04ECO",
         "head": "Online Marketing",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -16373,7 +16373,7 @@
         "code": "PG2EL04HIS",
         "head": "History of U.S.A. (From 1861-1973 C.E.)",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -16383,7 +16383,7 @@
         "code": "PG2EL04POL",
         "head": "Political Sociology",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -16393,7 +16393,7 @@
         "code": "PG2EL04PHI",
         "head": "Buddhist Philosophy",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "2",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -20896,7 +20896,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20906,7 +20906,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20916,7 +20916,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20926,7 +20926,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20936,7 +20936,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20946,7 +20946,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20956,7 +20956,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20966,7 +20966,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20976,7 +20976,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20986,7 +20986,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -20996,7 +20996,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21006,7 +21006,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21016,7 +21016,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21026,7 +21026,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21036,7 +21036,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21046,7 +21046,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21056,7 +21056,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21066,7 +21066,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21076,7 +21076,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21086,7 +21086,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21096,7 +21096,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21106,7 +21106,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21116,7 +21116,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21126,7 +21126,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21136,7 +21136,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
 
@@ -21148,7 +21148,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21158,7 +21158,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21168,7 +21168,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21178,7 +21178,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21188,7 +21188,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21198,7 +21198,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21208,7 +21208,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21218,7 +21218,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21228,7 +21228,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21238,7 +21238,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21248,7 +21248,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21258,7 +21258,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21268,7 +21268,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21278,7 +21278,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21288,7 +21288,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21298,7 +21298,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21308,7 +21308,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21318,7 +21318,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21328,7 +21328,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21338,7 +21338,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21348,7 +21348,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21358,7 +21358,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21368,7 +21368,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21378,7 +21378,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21388,7 +21388,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21398,7 +21398,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21408,7 +21408,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21418,7 +21418,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21428,7 +21428,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21438,7 +21438,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21448,7 +21448,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21458,7 +21458,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21468,7 +21468,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21478,7 +21478,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21488,7 +21488,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21498,7 +21498,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21508,7 +21508,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21518,7 +21518,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21528,7 +21528,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21538,7 +21538,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21548,7 +21548,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21558,7 +21558,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21568,7 +21568,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21578,7 +21578,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21588,7 +21588,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
 
@@ -21602,7 +21602,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21612,7 +21612,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21622,7 +21622,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21632,7 +21632,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21642,7 +21642,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21652,7 +21652,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21662,7 +21662,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21672,7 +21672,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21682,7 +21682,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21692,7 +21692,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21702,7 +21702,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21712,7 +21712,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21722,7 +21722,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21732,7 +21732,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21742,7 +21742,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21752,7 +21752,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21762,7 +21762,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21772,7 +21772,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21782,7 +21782,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21792,7 +21792,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21802,7 +21802,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21812,7 +21812,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21822,7 +21822,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21832,7 +21832,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21842,7 +21842,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21852,7 +21852,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21862,7 +21862,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21872,7 +21872,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21882,7 +21882,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21892,7 +21892,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21902,7 +21902,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21912,7 +21912,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21922,7 +21922,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21932,7 +21932,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21942,7 +21942,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21952,7 +21952,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21962,7 +21962,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21972,7 +21972,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21982,7 +21982,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -21992,7 +21992,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22002,7 +22002,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22012,7 +22012,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22022,7 +22022,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22032,7 +22032,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22042,7 +22042,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22052,7 +22052,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22062,7 +22062,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22072,7 +22072,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22082,7 +22082,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22092,7 +22092,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22102,7 +22102,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22112,7 +22112,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22122,7 +22122,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22132,7 +22132,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22142,9 +22142,64 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
+
+
+    {
+        "code": "P3HTHING01",
+        "head": "हिंदी भाषा शिक्षण (भाषण शिक्षण के संदर्भ,  भाषा शिक्षण कि विधीया, हिंदी शिक्षण )",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Language"
+    },
+    {
+        "code": "P3HTENGG01",
+        "head": "Introduction to Film Studies",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Language"
+    },
+    {
+        "code": "P3HTMARG01",
+        "head": "उपयोजित मराठी ",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Language"
+    },
+    {
+        "code": "P3HTSANG01",
+        "head": "भारतीय संस्कृती ",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Language"
+    },
+    {
+        "code": "P3HTURDG01",
+        "head": "Urdu In Bollywood",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Language"
+    },
+
+
+
     {
         "code": "P4HTHINC07",
         "head": "हिंदी उपन्यास (प्रेमचंद,फानिश्वर नाथ रेणू,कमलेश्वर वृंदावन लाल वर्मा)",
@@ -22152,7 +22207,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22162,7 +22217,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22172,7 +22227,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22182,7 +22237,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22192,7 +22247,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22202,7 +22257,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22212,7 +22267,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22222,7 +22277,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22232,7 +22287,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22242,7 +22297,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22252,7 +22307,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22262,7 +22317,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22272,7 +22327,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22282,7 +22337,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22292,7 +22347,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22302,7 +22357,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22312,7 +22367,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22322,7 +22377,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22332,7 +22387,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22342,7 +22397,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22352,7 +22407,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22362,7 +22417,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22372,7 +22427,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22382,7 +22437,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22392,7 +22447,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22402,7 +22457,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22412,7 +22467,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22422,7 +22477,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22432,7 +22487,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22442,7 +22497,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22452,7 +22507,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22462,7 +22517,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22472,7 +22527,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22482,7 +22537,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22492,7 +22547,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Language"
     },
     {
@@ -22502,7 +22557,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22512,7 +22567,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22522,7 +22577,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22532,7 +22587,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22542,7 +22597,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22552,7 +22607,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22562,7 +22617,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22572,7 +22627,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22582,7 +22637,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22592,7 +22647,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22602,7 +22657,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22612,7 +22667,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22622,7 +22677,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22632,7 +22687,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22642,7 +22697,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22652,7 +22707,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22662,7 +22717,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22672,7 +22727,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22702,7 +22757,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22712,7 +22767,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22722,7 +22777,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22732,7 +22787,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22742,7 +22797,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22772,7 +22827,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22782,7 +22837,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22792,7 +22847,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22802,7 +22857,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22812,7 +22867,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22842,7 +22897,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22852,7 +22907,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22862,7 +22917,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22872,7 +22927,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22882,7 +22937,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22892,7 +22947,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22902,7 +22957,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22912,7 +22967,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22922,7 +22977,7 @@
         "sub_type": "SEC(1)",
         "semester": "1",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22932,7 +22987,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22942,7 +22997,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22952,7 +23007,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22962,7 +23017,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22972,7 +23027,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22982,7 +23037,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -22992,7 +23047,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23002,7 +23057,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23012,7 +23067,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23022,7 +23077,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23032,7 +23087,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23042,7 +23097,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23062,7 +23117,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23072,7 +23127,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23082,7 +23137,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23092,7 +23147,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23102,7 +23157,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23132,7 +23187,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23142,7 +23197,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23152,7 +23207,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23162,7 +23217,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23172,7 +23227,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23202,7 +23257,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23212,7 +23267,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23222,7 +23277,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23232,7 +23287,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23242,7 +23297,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23262,7 +23317,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23272,7 +23327,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23282,7 +23337,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23292,7 +23347,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23302,7 +23357,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23312,7 +23367,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23322,7 +23377,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23332,7 +23387,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23342,7 +23397,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23352,7 +23407,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23362,7 +23417,7 @@
         "sub_type": "SEC(2)",
         "semester": "2",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23372,7 +23427,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23382,7 +23437,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23392,7 +23447,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23402,7 +23457,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23422,7 +23477,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23432,7 +23487,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23442,7 +23497,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23452,7 +23507,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23462,7 +23517,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23472,12 +23527,12 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
         "code": "P3HPGEOC10",
-        "head": "Practical I (Cartographic Techniques)",
+        "head": "Practical II (Cartographic Techniques)",
         "type": "DSC",
         "sub_type": "SUB(2)",
         "semester": "3",
@@ -23492,7 +23547,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23502,7 +23557,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23512,7 +23567,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23522,7 +23577,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23532,7 +23587,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23542,7 +23597,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23552,7 +23607,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23582,7 +23637,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23592,7 +23647,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23602,7 +23657,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23612,7 +23667,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23632,7 +23687,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23642,7 +23697,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23652,7 +23707,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23662,7 +23717,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23682,7 +23737,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23692,7 +23747,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23702,7 +23757,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23712,7 +23767,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23722,7 +23777,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23732,7 +23787,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23742,7 +23797,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23752,7 +23807,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23762,7 +23817,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23772,7 +23827,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23782,7 +23837,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23792,7 +23847,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23802,7 +23857,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23812,7 +23867,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23822,7 +23877,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23832,9 +23887,55 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
+
+
+    {
+        "code": "P3HTPOLG01",
+        "head": "An Introduction to Competitive Examination in India and Maharashtra",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Social Science"
+    },
+    {
+        "code": "P3HTPHIG01",
+        "head": "GE : Introduction to Philosophy",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Social Science"
+    },
+    {
+        "code": "P3HTHISG01",
+        "head": "An introduction to History of Modern India and Modern world",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Social Science"
+    },
+    {
+        "code": "P3HTECOG01",
+        "head": "Entrepreneurship Development",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Social Science"
+    },
+
+
+
+
     {
         "code": "P3HTGEOE07",
         "head": "Biogeography",
@@ -23842,7 +23943,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23852,7 +23953,7 @@
         "sub_type": "SUB(4) ",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23862,7 +23963,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23872,7 +23973,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23882,7 +23983,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23892,9 +23993,33 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
+
+
+    {
+        "code": "P3HTGEOG01",
+        "head": "Introduction to Natural Calamities- Disasters & Management.",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Social Science"
+    },
+    {
+        "code": "P3HTMUSG01",
+        "head": "Tradition of Indian Music",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MSC-CBCS",
+        "practical": "NO",
+        "branch": "Social Science"
+    },
+
+
     {
         "code": "P3HTPSYG01",
         "head": "Environmental Psychology-I",
@@ -23902,7 +24027,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23912,7 +24037,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23922,7 +24047,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23932,7 +24057,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23942,7 +24067,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23952,7 +24077,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23962,7 +24087,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23972,7 +24097,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23982,7 +24107,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -23992,7 +24117,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24002,7 +24127,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24012,7 +24137,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24042,7 +24167,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24052,7 +24177,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24062,7 +24187,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24072,7 +24197,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24082,7 +24207,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24122,7 +24247,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24132,7 +24257,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24142,7 +24267,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24152,7 +24277,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24172,7 +24297,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24182,7 +24307,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24192,7 +24317,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24202,7 +24327,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24222,7 +24347,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24232,7 +24357,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24242,7 +24367,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24252,7 +24377,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24262,7 +24387,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24272,7 +24397,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24282,7 +24407,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24292,7 +24417,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24302,7 +24427,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24312,7 +24437,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24322,7 +24447,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24332,7 +24457,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24342,7 +24467,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24352,7 +24477,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24362,7 +24487,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24372,7 +24497,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MA-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Social Science"
     },
     {
@@ -24382,7 +24507,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24392,7 +24517,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24402,7 +24527,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24412,7 +24537,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24422,7 +24547,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24432,7 +24557,7 @@
         "sub_type": "SUB(1)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24442,7 +24567,7 @@
         "sub_type": "SUB(5)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24462,7 +24587,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24472,7 +24597,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24482,7 +24607,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24492,7 +24617,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24502,7 +24627,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24512,7 +24637,7 @@
         "sub_type": "SUB(2)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24522,7 +24647,7 @@
         "sub_type": "SUB(5)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24542,7 +24667,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24552,7 +24677,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24562,7 +24687,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24572,7 +24697,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24582,7 +24707,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24592,7 +24717,7 @@
         "sub_type": "SUB(3)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24602,7 +24727,7 @@
         "sub_type": "SUB(5)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24622,7 +24747,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24632,7 +24757,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24642,7 +24767,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24652,7 +24777,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24662,7 +24787,7 @@
         "sub_type": "DSC(1D)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24672,7 +24797,7 @@
         "sub_type": "SUB(4)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24682,7 +24807,7 @@
         "sub_type": "SUB(5)",
         "semester": "1",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24812,7 +24937,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24822,7 +24947,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24832,7 +24957,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24842,7 +24967,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24852,7 +24977,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24862,7 +24987,7 @@
         "sub_type": "SUB(1)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24872,7 +24997,7 @@
         "sub_type": "SUB(5)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24892,7 +25017,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24902,7 +25027,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24912,7 +25037,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24922,7 +25047,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24932,7 +25057,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24942,7 +25067,7 @@
         "sub_type": "SUB(2)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24952,7 +25077,7 @@
         "sub_type": "SUB(5)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24972,7 +25097,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24982,7 +25107,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -24992,7 +25117,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25002,7 +25127,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25012,7 +25137,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25022,7 +25147,7 @@
         "sub_type": "SUB(3)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25032,7 +25157,7 @@
         "sub_type": "SUB(5)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25052,7 +25177,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25062,7 +25187,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25072,7 +25197,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25082,7 +25207,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25092,7 +25217,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25102,7 +25227,7 @@
         "sub_type": "SUB(4)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25112,7 +25237,7 @@
         "sub_type": "SUB(5)",
         "semester": "2",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25242,7 +25367,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25252,7 +25377,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25262,7 +25387,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25272,7 +25397,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25282,7 +25407,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25292,7 +25417,7 @@
         "sub_type": "SUB(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25302,7 +25427,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25312,7 +25437,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25322,7 +25447,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25342,7 +25467,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25352,7 +25477,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25362,7 +25487,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25372,7 +25497,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25382,7 +25507,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25392,7 +25517,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25402,7 +25527,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25412,7 +25537,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25422,7 +25547,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25442,7 +25567,7 @@
         "sub_type": "SUB(2)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25452,7 +25577,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25462,7 +25587,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25472,7 +25597,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25482,7 +25607,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25492,7 +25617,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25502,7 +25627,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25512,7 +25637,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25522,7 +25647,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25532,7 +25657,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25542,7 +25667,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25582,7 +25707,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25592,7 +25717,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25602,7 +25727,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25612,7 +25737,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25622,7 +25747,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25632,7 +25757,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25642,7 +25767,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25652,7 +25777,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25662,7 +25787,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25672,7 +25797,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25682,7 +25807,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25692,7 +25817,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25702,7 +25827,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25712,7 +25837,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25752,7 +25877,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25762,7 +25887,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25772,7 +25897,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25782,7 +25907,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },{
         "code": "P3STMATE14",
@@ -25791,7 +25916,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },{
         "code": "P3STMATE14",
@@ -25800,7 +25925,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25840,7 +25965,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25850,7 +25975,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25860,7 +25985,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25900,7 +26025,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25910,7 +26035,7 @@
         "sub_type": "SUB(3)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25920,7 +26045,7 @@
         "sub_type": "SUB(4)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     }, {
         "code": "P3STMATE16",
@@ -25929,7 +26054,7 @@
         "sub_type": "SUB(5)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25939,7 +26064,7 @@
         "sub_type": "SEC(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25949,7 +26074,7 @@
         "sub_type": "SEC(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25959,7 +26084,7 @@
         "sub_type": "SEC(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25969,7 +26094,7 @@
         "sub_type": "SEC(1)",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25979,7 +26104,7 @@
         "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -25996,52 +26121,107 @@
         "code": "P3STBOTGE01",
         "head": "Traditional healthcare system and Medicinal plants",
         "type": "GE",
-        "sub_type": "GE(1)",
+        "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
         "code": "P3STCHEG01",
         "head": "Chemistry in Daily Life",
         "type": "GE",
-        "sub_type": "GE(1)",
+        "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
         "code": "P3TZOOG01",
         "head": "Bird Watching",
         "type": "GE",
-        "sub_type": "GE(1)",
+        "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
         "code": "P3STSTAG01",
         "head": "Statistical Tools for Data Analysis",
         "type": "GE",
-        "sub_type": "GE(1)",
+        "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
         "code": "P3STPHYG01",
         "head": "Elements Of Modern Physics",
         "type": "GE",
-        "sub_type": "GE(1)",
+        "sub_type": "Generic Elective",
         "semester": "3",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
+
+
+    {
+        "code": "P3STBOTGE01",
+        "head": "Traditional healthcare system and Medicinal plants",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MA-CBCS",
+        "practical": "NO",
+        "branch": "Science"
+    },
+    {
+        "code": "P3STCHEG01",
+        "head": "Chemistry in Daily Life",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MA-CBCS",
+        "practical": "NO",
+        "branch": "Science"
+    },
+    {
+        "code": "P3TZOOG01",
+        "head": "Bird Watching",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MA-CBCS",
+        "practical": "NO",
+        "branch": "Science"
+    },
+    {
+        "code": "P3STSTAG01",
+        "head": "Statistical Tools for Data Analysis",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MA-CBCS",
+        "practical": "NO",
+        "branch": "Science"
+    },
+    {
+        "code": "P3STPHYG01",
+        "head": "Elements Of Modern Physics",
+        "type": "GE",
+        "sub_type": "Generic Elective",
+        "semester": "3",
+        "scheme": "MA-CBCS",
+        "practical": "NO",
+        "branch": "Science"
+    },
+
+
+
     {
         "code": "P3SPBOTC05",
         "head": "Practical V (BOTANY)",
@@ -26139,7 +26319,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26149,7 +26329,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26159,7 +26339,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26169,7 +26349,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26179,7 +26359,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26189,7 +26369,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26199,7 +26379,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26209,7 +26389,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26219,7 +26399,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26249,7 +26429,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26259,7 +26439,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26269,7 +26449,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26279,7 +26459,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26289,7 +26469,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26299,7 +26479,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26309,7 +26489,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26319,7 +26499,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26329,7 +26509,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26339,7 +26519,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26349,7 +26529,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26359,7 +26539,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26369,7 +26549,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26379,7 +26559,7 @@
         "sub_type": "SUB(1)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26389,7 +26569,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26399,7 +26579,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26409,7 +26589,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },  {
         "code": "P4STMATE19",
@@ -26418,7 +26598,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26438,7 +26618,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26448,7 +26628,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26458,7 +26638,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26468,7 +26648,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26478,7 +26658,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26488,7 +26668,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26498,7 +26678,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26518,7 +26698,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26528,7 +26708,7 @@
         "sub_type": "SUB(2)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26538,7 +26718,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },{
         "code": "P4STMATE21",
@@ -26547,7 +26727,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },{
         "code": "P4STMATE21",
@@ -26556,7 +26736,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26566,7 +26746,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26576,7 +26756,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26586,7 +26766,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26596,7 +26776,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26606,7 +26786,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26616,7 +26796,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26626,7 +26806,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },{
         "code": "P4STMATE23",
@@ -26635,7 +26815,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26645,7 +26825,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26655,7 +26835,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26665,7 +26845,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26675,7 +26855,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26685,7 +26865,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26695,7 +26875,7 @@
         "sub_type": "SUB(3)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26705,7 +26885,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     }, {
         "code": "P4STMATE24",
@@ -26714,7 +26894,7 @@
         "sub_type": "SUB(5)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26724,7 +26904,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26734,7 +26914,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26744,7 +26924,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26754,7 +26934,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26764,7 +26944,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -26774,7 +26954,7 @@
         "sub_type": "SUB(4)",
         "semester": "4",
         "scheme": "MSC-CBCS",
-        "practical": "YES",
+        "practical": "NO",
         "branch": "Science"
     },
     {
@@ -27081,7 +27261,7 @@
         "code": "PG3EL06BOT",
         "head": "Plant Breeding",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27091,7 +27271,7 @@
         "code": "PG3EL06CHE",
         "head": "Medicinal Chemistry",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27101,7 +27281,7 @@
         "code": "PG3EL06GEO",
         "head": "Rural Geography",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27111,7 +27291,7 @@
         "code": "PG3EL06MAT",
         "head": "Numerical Analysis",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27121,7 +27301,7 @@
         "code": "PG3EL06MUS",
         "head": "School of Gharana in Music",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27131,7 +27311,7 @@
         "code": "PG3EL06PHY",
         "head": "Condensed Matter Physics-I",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27141,7 +27321,7 @@
         "code": "PG3EL06PSY",
         "head": "Biopsychology-I",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27151,7 +27331,7 @@
         "code": "PG3EL06STT",
         "head": "Time series Analysis",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27161,7 +27341,7 @@
         "code": "PG3EL06ZOO",
         "head": "Molecular Biology -III",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27171,7 +27351,7 @@
         "code": "PG3EL06TXT",
         "head": "Current Trends In fashion",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -27741,7 +27921,7 @@
         "code": "PG3EL06MAR",
         "head": "आदिवासी साहित्य ",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -27751,7 +27931,7 @@
         "code": "PG3EL06HIN",
         "head": "छायावादी काव्य ",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -27761,7 +27941,7 @@
         "code": "PG3EL06SAN",
         "head": "व्याकरणशास्त्रम् - 1",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -27771,7 +27951,7 @@
         "code": "PG3EL06ENG",
         "head": "Post-Colonial Studies",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -27781,7 +27961,7 @@
         "code": "PG3EL06URD",
         "head": "Special study of Maulana Abul kalam Azad",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -27791,7 +27971,7 @@
         "code": "PG3EL06ECO",
         "head": "Population & Health Economics",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -27801,7 +27981,7 @@
         "code": "PG3EL06HIS",
         "head": "History of Social Reform Movements in Maharashtra (From 1818-1947 C.E.)",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -27811,7 +27991,7 @@
         "code": "PG3EL06POL",
         "head": "Social Movement in India",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -27821,7 +28001,7 @@
         "code": "PG3EL06PHI",
         "head": "Philosophical Logic -I",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "3",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28221,7 +28401,7 @@
         "code": "PG4EL08BOT",
         "head": "Seed Technology",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28231,7 +28411,7 @@
         "code": "PG4EL08CHE",
         "head": "Natural Products",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28241,7 +28421,7 @@
         "code": "PG4EL08GEO",
         "head": "Environmental Geography",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28251,7 +28431,7 @@
         "code": "PG4EL08MAT",
         "head": "Integral Equations",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28261,7 +28441,7 @@
         "code": "PG4EL08MUS",
         "head": "Comparative Study of   Hindustani & Karnataka Music",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28271,7 +28451,7 @@
         "code": "PG4EL08PHY",
         "head": "Condensed  Matter Physics-II",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28281,7 +28461,7 @@
         "code": "PG4EL08PSY",
         "head": "Biopsychology-II",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28291,7 +28471,7 @@
         "code": "PG4EL08STT",
         "head": "Survival Analysis",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28301,7 +28481,7 @@
         "code": "PG4EL08ZOO",
         "head": "Molecular Biology -IV",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28311,7 +28491,7 @@
         "code": "PG4EL08TXT",
         "head": "Modern Fashion Illustrations",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "YES",
@@ -28691,7 +28871,7 @@
         "code": "PG4EL08MAR",
         "head": "अनुवादित साहित्य",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28701,7 +28881,7 @@
         "code": "PG4EL08HIN",
         "head": "छायावदोत्तर काव्य",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28711,7 +28891,7 @@
         "code": "PG4EL08SAN",
         "head": "व्याकरणशास्त्रम्",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28721,7 +28901,7 @@
         "code": "PG4EL08ENG",
         "head": "Cultural Studies",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28731,7 +28911,7 @@
         "code": "PG4EL08URD",
         "head": "Tarjuma Nigari",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28741,7 +28921,7 @@
         "code": "PG4EL08ECO",
         "head": "Environmental Economics & Demography",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28751,7 +28931,7 @@
         "code": "PG4EL08HIS",
         "head": "Social Reformers in Modern  Maharashtra  (From 1818-1947 C.E.)",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28761,7 +28941,7 @@
         "code": "PG4EL08POL",
         "head": "Human Rights",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
@@ -28771,7 +28951,7 @@
         "code": "PG4EL08PHI",
         "head": "Philosophical Logic -II",
         "type": "ELECTIVE",
-        "sub_type": "ELECTIVE(2)",
+        "sub_type": "ELECTIVE(1)",
         "semester": "4",
         "scheme": "PG-NEP",
         "practical": "NO",
