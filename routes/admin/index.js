@@ -187,6 +187,30 @@ app.post('/getAllApplications',async (req, res) => {
    
 });
 
+
+app.get('/approvePayment',async (req, res) => {
+
+    const  {id,fee_late,invoiceId,fee_paid}=req.query
+    const data = require('../../data/allAdmin.json');
+ 
+    try{
+        let tok = jwt.verify(req.query?.token,KEY)
+
+        if(!data[tok.email] || !invoiceId || !id  || !fee_paid)
+            return    res.status(500).send({ message: 'Unrestricted !!' });
+
+        // console.log(req.body)
+
+        let q =await admin.firestore().doc('applications/'+id).set({fee_late,invoiceId,fee_paid,fee_paid_on:Date.now(),status:'PAID'},{merge:true})
+
+       return  res.status(200).send({message:'Field updated !!'});
+    }catch(err){
+      return  res.status(400).send({ message: 'Token expired !!' });
+
+    }
+   
+});
+
 app.use(express.json({ limit: '100mb' }));
 
 module.exports = app;

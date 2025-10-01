@@ -14,14 +14,16 @@ app.use(express.json({ limit: '100mb' }));
 
 // Login with Enrollment Number (PRN)
 app.get('/login', async (req, res) => {
-    const { type, prn } = req.query;
+    const { type, prn ,email,neww} = req.query;
 
-    if (!type || !prn) {
+    if (!type || (neww?!email:!prn)) {
         return res.status(400).send({ message: 'Restricted Access !!' });
     }
 
     try {
         // Use a parameterized query to prevent SQL injection
+
+        if(!neww){
                 var datae = (await admin.firestore().collection('students').where('enrollment_no','==',parseInt(prn)).get())
 
                 if(datae.empty)
@@ -35,11 +37,62 @@ app.get('/login', async (req, res) => {
         const data  = datae.docs[0].data()
         let token = jwt.sign({ ...data, type, prn }, KEY, { expiresIn: '1h' });
         res.status(200).send({ name: data?.full_name, token, type, prn });
+    }else{
+
+        const b = await generateOTP(email,prn ||'',type)
+
+        return res.status(200).send({status:1,message:'OTP has been sent to the both mobile number and email'})
+
+
+    }
+
     } catch (error) {
         // console.error('Login error:', error);
         res.status(500).send({ message: error });
     }
 });
+
+
+app.get('/otpConfirm',async (req,res)=>{
+    const {cred,otp} = req.query
+    const dat =   (await  admin.database().ref('auth/otp/'+cred.replaceAll('.','-')).get()).val()
+    if(!dat || dat.expiry<Date.now() || dat.otp!=otp)
+      return   res.status(400).send({status:2 ,message:'OTP Invalid/Expired'})
+
+        var datae = (await admin.firestore().collection('students').where('email_id','==',cred).get())
+
+        var data ;
+        if (datae.empty) {
+            data={
+                "registration_no":0,	"full_name":'',	"fname":"",	"mname":"",	"lname":"",	"dob":"",	"gender":"",	"mobile_no":"",	"email_id":cred,	"category":"",	"father_name":"",	"mother_name":"",	"guradian_no":"",	"enrollment_no":"",	"adhar_card_no":"",	"c_address":"",	"city":"",	"pincode":"",	"handicap":"",	"student_medium":""
+            }
+        }else{
+          data  = datae.docs[0].data()
+        }
+
+
+    const datss =   admin.database().ref('auth/otp/'+cred.replaceAll('.','-')).set(null)
+
+    let token = jwt.sign({ ...data, type:dat.type, prn:dat.prn }, KEY, { expiresIn: '1h' });
+        res.status(200).send({ name: data?.full_name, token, type:dat.type, prn:dat.prn });
+   
+})
+
+
+async function generateOTP(cred,uid,type){
+
+        let otp = '';
+        for (let i = 0; i < 4; i++) {
+          otp += Math.floor(Math.random() * 10); // Appends a digit 0-9
+        }
+
+        if(cred.includes('@'))
+           await  sendOtpOnEMail(cred,otp)
+        // else
+        // await sendOtpOnNumber(cred,otp)
+    admin.database().ref('auth/otp/'+cred.replaceAll('.','-')).set({otp:otp,expiry:new Date().getTime()+10*60*1000,uid,type})
+return true
+}
 
 // Get subjects based on course details
 app.get('/getSubjects', async (req, res) => {
@@ -186,7 +239,7 @@ app.post('/submitApplication',async (req, res) => {
 
         // body.prn='sdswdd'
         // console.log(acedemic_year,season)
-        let apps  = (await admin.firestore().collection('applications').where('acedemic_year','==',acedemic_year).where('season','==',season).where('prn','==',body.prn ||'').where('exam','==',body.exam ||'').where('semester','==',body.semester ||'').count().get()).data().count
+        let apps  = (await admin.firestore().collection('applications').where('acedemic_year','==',acedemic_year).where('season','==',season).where('prn','==',body.prn ||'').where('email_id','==',tok.email ||'').where('exam','==',body.exam ||'').where('semester','==',body.semester ||'').count().get()).data().count
         if(apps)
             return res.status(402).send({ message: 'Form already Submitted !!' ,status:402})
 
@@ -202,7 +255,11 @@ app.post('/submitApplication',async (req, res) => {
             let id = (await admin.firestore().collection('applications').add(body)).id
 
                 
-            let docs = (await admin.firestore().collection('students').where('enrollment_no','in',[body?.prn ||0,parseInt(body?.prn+'') ||0,parseInt(body?.emrollment_no+'') ||0,body?.emrollment_no ||0,]).get())
+            let docs= (await admin.firestore().collection('students').where('enrollment_no','in',[body?.prn ||0,parseInt(body?.prn+'') ||0,parseInt(body?.enrollment_no+'') ||0,body?.enrollment_no ||0,]).get())
+
+            
+            if(docs.empty)
+               docs= (await admin.firestore().collection('students').where('email_id','==',tok.email).get())
 
             if(!docs.empty){
                 
@@ -222,7 +279,93 @@ app.post('/submitApplication',async (req, res) => {
    
 });
 
+const nodemailer  = require('nodemailer')
 
+async function sendOtpOnEMail(email,otp){
+
+  const transporter =   nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true, // true for 465, false for 587
+      auth: {
+        user: 'splintzer.com@gmail.com',        // your Gmail address
+        pass: 'gmlrzwdemgekmjls',            // your Gmail app password
+      }
+    })
+
+   return  transporter.sendMail({
+        from:'GVISH Login <splintzer.com@gmail.com>',
+        to:email,
+        subject:'Signin to GVISH College',
+        html:`<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Your OTP Code</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background-color: #ffffff;
+        max-width: 500px;
+        margin: 40px auto;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #333333;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .otp {
+        font-size: 32px;
+        font-weight: bold;
+        color: #007bff;
+        text-align: center;
+        margin: 20px 0;
+        letter-spacing: 6px;
+      }
+      .info {
+        font-size: 14px;
+        color: #666666;
+        text-align: center;
+      }
+      .footer {
+        font-size: 12px;
+        color: #aaaaaa;
+        text-align: center;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Your One-Time Password (OTP)</div>
+      <div class="otp">${otp}</div>
+      <div class="info">
+        Please use this OTP to verify your identity. This code is valid for the next 10 minutes.
+        <br /><br />
+        If you did not request this, you can ignore this email.
+      </div>
+      <div class="footer">
+        &copy; 2025 GVISH. All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>`,
+        text:''
+    })
+
+
+
+}
 module.exports = app;
 
 

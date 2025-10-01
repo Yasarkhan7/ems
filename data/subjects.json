@@ -3130,16 +3130,6 @@
         "branch": "NULL"
     },
     {
-        "code": "HMSYPOLVEC02",
-        "head": "Understanding India (Constitution of India)",
-        "type": "GE",
-        "sub_type": "GE",
-        "semester": "3",
-        "scheme": "UG-NEP-NEW",
-        "practical": "YES",
-        "branch": "NULL"
-    },
-    {
         "code": "HMSYENGMJ03 ",
         "head": "English literary studies- Drama II",
         "type": "MAJOR",
@@ -9321,7 +9311,7 @@
     },
     {
         "code": "SY3SECURD",
-        "head": "Translation",
+        "head": "Translation (URDU)",
         "type": "SEC",
         "sub_type": "SEC(3)",
         "semester": "3",
@@ -9331,7 +9321,7 @@
     },
     {
         "code": "SY3SECPER",
-        "head": "Translation",
+        "head": "Translation (PERSIAN)",
         "type": "SEC",
         "sub_type": "SEC(3)",
         "semester": "3",
@@ -15320,7 +15310,7 @@
         "branch": "NULL"
     },
     {
-        "code": "PG1RM01ST",
+        "code": "PG1RM01STT",
         "head": "Research Methodology(STATISTICS)",
         "type": "RM",
         "sub_type": "Research Methodology",
