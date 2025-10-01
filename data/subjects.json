@@ -19639,16 +19639,7 @@
       "practical":"YES",
       "branch":"BSC"
     },
-    {
-      "code":"U5STMATE02",
-      "head":"Special Theory Of Relativity",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"5",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
+   
     {
       "code":"U5STBOTE01",
       "head":" Plant Breeding and Research Methodology",
@@ -19829,16 +19820,7 @@
       "practical":"YES",
       "branch":"BSC"
     },
-    {
-      "code":"U5STMATE02",
-      "head":"Special Theory Of Relativity",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"5",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
+   
    
     {
       "code":"U5STBOTE01",
@@ -20020,17 +20002,7 @@
       "practical":"YES",
       "branch":"BSC"
     },
-    {
-      "code":"U5STMATE02",
-      "head":"Special Theory Of Relativity",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"5",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    
+  
     {
       "code":"U5STBOTS03",
       "head":"Nursery and Gardening",
@@ -23487,7 +23459,7 @@
       "branch":"Social Science"
     },
     {
-      "code":"P2HPPHIS02",
+      "code":"P2HPPHI-S02",
       "head":"Logical Foundation of Computer Application",
       "type":"SEC",
       "sub_type":"SEC(2)",
@@ -24748,16 +24720,7 @@
       "practical":"NO",
       "branch":"Science"
     },
-    {
-      "code":" P1STMATE01",
-      "head":"Differential Geometry",
-      "type":"DSE",
-      "sub_type":"SUB(5)",
-      "semester":"1",
-      "scheme":"MSC-CBCS",
-      "practical":"NO",
-      "branch":"Science"
-    },
+    
     {
       "code":"P1ITHSCC01",
       "head":"Textile Chemistry and Processing",
@@ -24828,16 +24791,7 @@
       "practical":"NO",
       "branch":"Science"
     },
-    {
-      "code":" P1STMATE02",
-      "head":"Advanced Discrete  Mathematics-I",
-      "type":"DSE",
-      "sub_type":"SUB(5)",
-      "semester":"1",
-      "scheme":"MSC-CBCS",
-      "practical":"NO",
-      "branch":"Science"
-    },
+   
     {
       "code":"P1ITHSCC02",
       "head":"Advanced Textile Design",
@@ -24908,16 +24862,7 @@
       "practical":"NO",
       "branch":"Science"
     },
-    {
-      "code":"P1STMATE03",
-      "head":"Mathematical Economics-I",
-      "type":"DSE",
-      "sub_type":"SUB(5)",
-      "semester":"1",
-      "scheme":"MSC-CBCS",
-      "practical":"NO",
-      "branch":"Science"
-    },
+   
     {
       "code":"P1ITHSCC03",
       "head":"Textile Clothing and Human Psychology",
@@ -24972,7 +24917,7 @@
       "code":"P1STPHYC04",
       "head":"Computational Methods and ‘C’ Programming",
       "type":"DSC",
-      "sub_type":"DSC(1D)",
+      "sub_type":"SUB(4)",
       "semester":"1",
       "scheme":"MSC-CBCS",
       "practical":"NO",
@@ -24983,6 +24928,36 @@
       "head":"Ordinary Differential Equations",
       "type":"DSC",
       "sub_type":"SUB(4)",
+      "semester":"1",
+      "scheme":"MSC-CBCS",
+      "practical":"NO",
+      "branch":"Science"
+    },
+    {
+        "code":" P1STMATE01",
+        "head":"Differential Geometry",
+        "type":"DSE",
+        "sub_type":"SUB(5)",
+        "semester":"1",
+        "scheme":"MSC-CBCS",
+        "practical":"NO",
+        "branch":"Science"
+      },
+    {
+      "code":" P1STMATE02",
+      "head":"Advanced Discrete  Mathematics-I",
+      "type":"DSE",
+      "sub_type":"SUB(5)",
+      "semester":"1",
+      "scheme":"MSC-CBCS",
+      "practical":"NO",
+      "branch":"Science"
+    },
+    {
+      "code":"P1STMATE03",
+      "head":"Mathematical Economics-I",
+      "type":"DSE",
+      "sub_type":"SUB(5)",
       "semester":"1",
       "scheme":"MSC-CBCS",
       "practical":"NO",
@@ -25112,10 +25087,10 @@
       "code":"P1IPHSCS02",
       "head":"Textile Handicraft Product & Entrepreneurship Development",
       "type":"DSC",
-      "sub_type":"SEC",
+      "sub_type":"SUB(1)",
       "semester":"1",
       "scheme":"MSC-CBCS",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"Home Science"
     },
     {
@@ -25926,7 +25901,7 @@
       "code":"P3STSTAE02",
       "head":"Data Mining",
       "type":"DSE",
-      "sub_type":"SUB(4)",
+      "sub_type":"SUB(3)",
       "semester":"3",
       "scheme":"MSC-CBCS",
       "practical":"NO",
@@ -25936,7 +25911,7 @@
       "code":"P3STPHYE02",
       "head":"Condensed Matter Physics- I",
       "type":"DSE",
-      "sub_type":"SUB(4)",
+      "sub_type":"SUB(3)",
       "semester":"3",
       "scheme":"MSC-CBCS",
       "practical":"NO",
@@ -26765,6 +26740,30 @@
       "practical":"NO",
       "branch":"Science"
     },
+
+
+    {
+        "code":"P4STPHYE05",
+        "head":"Elective-III Microcontroller & Interfacing ",
+        "type":"DSC",
+        "sub_type":"SUB(4)",
+        "semester":"4",
+        "scheme":"MSC-CBCS",
+        "practical":"NO",
+        "branch":"Science"
+      },
+
+      {
+        "code":"P4STPHYE06",
+        "head":"Nano-science & Nanotechnology ",
+        "type":"DSC",
+        "sub_type":"SUB(4)",
+        "semester":"4",
+        "scheme":"MSC-CBCS",
+        "practical":"NO",
+        "branch":"Science"
+      },
+
     {
       "code":"P4STMATE19",
       "head":"Reaction Diffusion Theory-II",
@@ -26876,7 +26875,7 @@
     },
     {
       "code":"P4IPHSC01",
-      "head":"Research Project(Physics)",
+      "head":"Research Project(Home Science)",
       "type":"FP",
       "sub_type":"SUB(1)",
       "semester":"4",
@@ -27051,26 +27050,7 @@
       "practical":"NO",
       "branch":"Science"
     },
-    {
-      "code":"P4STPHYE05",
-      "head":"Elective-III Microcontroller & Interfacing",
-      "type":"DSE",
-      "sub_type":"SUB(3)",
-      "semester":"4",
-      "scheme":"MSC-CBCS",
-      "practical":"NO",
-      "branch":"Science"
-    },
-    {
-      "code":"P4STPHYE06",
-      "head":"Nano-science & Nanotechnology",
-      "type":"DSE",
-      "sub_type":"SUB(1)",
-      "semester":"4",
-      "scheme":"MSC-CBCS",
-      "practical":"YES",
-      "branch":"Science"
-    },
+    
     {
       "code":"P4STMATE24",
       "head":"Advanced Number Theory",
@@ -27134,20 +27114,10 @@
       "code":"P4SPPHYE05",
       "head":"Practical VII (Physics 1)",
       "type":"DSE",
-      "sub_type":"SUB(3)",
+      "sub_type":"SUB(1)",
       "semester":"4",
       "scheme":"MSC-CBCS",
       "practical":"YES",
-      "branch":"Science"
-    },
-    {
-      "code":"P4SPPHYE06",
-      "head":"Practical VII (Physics 2)",
-      "type":"DSE",
-      "sub_type":"SUB(4)",
-      "semester":"4",
-      "scheme":"MSC-CBCS",
-      "practical":"NO",
       "branch":"Science"
     },
     {
