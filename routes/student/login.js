@@ -16,14 +16,19 @@ app.use(express.json({ limit: '100mb' }));
 app.get('/login', async (req, res) => {
     const { type, prn ,email,neww} = req.query;
 
-    if (!type || (neww?!email:!prn)) {
+
+
+    if (!type || (neww+''=="true" && !email) ||(neww+''=='false' && !prn)) {
         return res.status(400).send({ message: 'Restricted Access !!' });
     }
+
+
 
     try {
         // Use a parameterized query to prevent SQL injection
 
-        if(!neww){
+
+        if(neww+''=="false"){
                 var datae = (await admin.firestore().collection('students').where('enrollment_no','==',parseInt(prn)).get())
 
                 if(datae.empty)
