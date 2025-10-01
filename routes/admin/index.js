@@ -104,10 +104,10 @@ app.get('/getExamStatus',async (req, res) => {
    
 });
 
-app.get('/updateExamStatus',async (req, res) => {
+app.post('/updateExamStatus',async (req, res) => {
 
     try{
-        let tok = jwt.verify(req.query?.token)
+        let tok = jwt.verify(req.query?.token,KEY)
         const data = require('../../data/allAdmin.json');
 
         let body = req.body
@@ -117,7 +117,8 @@ app.get('/updateExamStatus',async (req, res) => {
 
        let datas = (await  admin.database().ref('/exam/config/status').set(body)) 
        return  res.status(200).send({message:'Success'});
-    }catch{
+    }catch(err){
+        console.log(err)
         res.status(500).send({ message: 'Unrestricted !!' });
 
     }
@@ -211,6 +212,57 @@ app.get('/approvePayment',async (req, res) => {
    
 });
 
+app.get('/getTotalStudents',async (req, res) => {
+
+    const data = require('../../data/allAdmin.json');
+ 
+    try{
+        let tok = jwt.verify(req.query?.token,KEY)
+
+        if(!data[tok.email] )
+            return    res.status(500).send({ message: 'Unrestricted !!' });
+
+        // console.log(req.body)
+
+        let count =(await admin.firestore().collection('students/').count().get()).data().count
+
+       return  res.status(200).send({count});
+    }catch(err){
+        console.log(err)
+      return  res.status(400).send({ message: 'Token expired !!' });
+
+    }
+   
+});
+
+app.get('/getStudent',async (req, res) => {
+    const data = require('../../data/allAdmin.json');
+    try{
+        let tok = jwt.verify(req.query?.token,KEY)
+        if(!data[tok.email]  || !req.query.search)
+            return    res.status(500).send({ message: 'Unrestricted !!' });
+
+        let dataa=[]
+        let search= req.query.search
+        if(req.query.type=='enrollment_no')
+            search=parseInt(req.query.search+'')
+     
+
+        console.log(req.query)
+        ;(await admin.firestore().collection('students').where(req.query.type,'==',search).get()).forEach(el=>{
+            console.log(el.data())
+
+            dataa.push({...el.data(),id:el.id})
+        })
+
+       return  res.status(200).send(dataa);
+    }catch(err){
+        console.log(err)
+      return  res.status(400).send({ message: 'Token expired !!' });
+
+    }
+   
+});
 
 app.post('/approveApplication',async (req, res) => {
 
@@ -265,19 +317,33 @@ const seq=[{
     scheme:'BA-CBCS',semester:5,type:'Backlog', startsFrom:220191
   },{
     scheme:'BA-CBCS',semester:6,type:'Backlog', startsFrom:220301
-  },{
-    scheme:'BSC-CBCS',semester:1,type:'Backlog', startsFrom:220451
-  },{
-    scheme:'BSC-CBCS',semester:2,type:'Backlog', startsFrom:220511
-  },{
-    scheme:'BSC-CBCS',semester:3,type:'Backlog', startsFrom:220571
-  },{
-    scheme:'BSC-CBCS',semester:4,type:'Backlog', startsFrom:220681
-  },{
-    scheme:'BSC-CBCS',semester:5,type:'Backlog', startsFrom:220801
-  },{
-    scheme:'BSC-CBCS',semester:6,type:'Backlog', startsFrom:220901
   },
+  
+  {
+    scheme:'MA-CBCS',semester:1,type:'Backlog', startsFrom:220451
+  },
+  {
+    scheme:'MA-CBCS',semester:2,type:'Backlog', startsFrom:220456
+  },{
+    scheme:'MA-CBCS',semester:3,type:'Backlog', startsFrom:220461
+  },{
+    scheme:'MA-CBCS',semester:4,type:'Backlog', startsFrom:220466
+  },
+  
+  {
+    scheme:'BSC-CBCS',semester:1,type:'Backlog', startsFrom:220471
+  },{
+    scheme:'BSC-CBCS',semester:2,type:'Backlog', startsFrom:220531
+  },{
+    scheme:'BSC-CBCS',semester:3,type:'Backlog', startsFrom:220591
+  },{
+    scheme:'BSC-CBCS',semester:4,type:'Backlog', startsFrom:220701
+  },{
+    scheme:'BSC-CBCS',semester:5,type:'Backlog', startsFrom:220821
+  },{
+    scheme:'BSC-CBCS',semester:6,type:'Backlog', startsFrom:220941
+  },
+
   ,{
     scheme:'BSCHS-CBCS',semester:1,type:'Backlog', startsFrom:221051
   },{

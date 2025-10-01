@@ -265,15 +265,20 @@ app.post('/submitApplication',async (req, res) => {
             if(docs.empty)
                docs= (await admin.firestore().collection('students').where('email_id','==',tok.email).get())
 
+            let headers =  ["registration_no",	"full_name",	"fname",	"mname",	"lname",	"dob",	"gender",	"mobile_no",	"email_id",	"category",	"father_name",	"mother_name",	"guradian_no",	"enrollment_no",	"adhar_card_no",	"c_address",	"city",	"pincode",	"handicap",	"student_medium"]
+
+            let dat=Object.create({})
+            headers.forEach(el=>{
+             dat[el]=body[el]
+            })
+
             if(!docs.empty){
                 
-               let headers =  ["registration_no",	"full_name",	"fname",	"mname",	"lname",	"dob",	"gender",	"mobile_no",	"email_id",	"category",	"father_name",	"mother_name",	"guradian_no",	"enrollment_no",	"adhar_card_no",	"c_address",	"city",	"pincode",	"handicap",	"student_medium"]
-
-               let dat=Object.create({})
-               headers.forEach(el=>{
-                dat[el]=body[el]
-               })
+              
               let a  =   admin.firestore().doc('students/'+docs.docs?.[0].id).set(dat,{merge:true})
+            }else{
+              let a  =   admin.firestore().doc('students/').add(dat)
+
             }
  
        return  res.status(200).send({id:id,message:'Application submitted !!'});
