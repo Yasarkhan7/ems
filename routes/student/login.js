@@ -27,7 +27,6 @@ app.get('/login', async (req, res) => {
     try {
         // Use a parameterized query to prevent SQL injection
 
-
         if(neww+''=="false"){
                 var datae = (await admin.firestore().collection('students').where('enrollment_no','==',parseInt(prn)).get())
 
@@ -53,7 +52,7 @@ app.get('/login', async (req, res) => {
 
     } catch (error) {
         // console.error('Login error:', error);
-        res.status(500).send({ message: error });
+        res.status(403).send({ message: error });
     }
 });
 
