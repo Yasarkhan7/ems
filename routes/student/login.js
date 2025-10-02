@@ -243,7 +243,8 @@ app.post('/submitApplication',async (req, res) => {
 
         // body.prn='sdswdd'
         // console.log(acedemic_year,season)
-        let apps  = (await admin.firestore().collection('applications').where('acedemic_year','==',acedemic_year).where('season','==',season).where('prn','==',body.prn ||'').where('email_id','==',tok.email ||'').where('exam','==',body.exam ||'').where('semester','==',body.semester ||'').count().get()).data().count
+        let apps  = (await admin.firestore().collection('applications').where('type','==',body.type).where('acedemic_year','==',acedemic_year).where('season','==',season).where('enrollment_no','==',body.enrollment_no ||'').where('exam','==',body.exam ||'').where('semester','==',body.semester ||'').count().get()).data().count
+        console.log(apps)
         if(apps)
             return res.status(402).send({ message: 'Form already Submitted !!' ,status:402})
 
@@ -263,7 +264,7 @@ app.post('/submitApplication',async (req, res) => {
 
             
             if(docs.empty)
-               docs= (await admin.firestore().collection('students').where('email_id','==',tok.email).get())
+               docs= (await admin.firestore().collection('students').where('email_id','==',body.email_id).get())
 
             let headers =  ["registration_no",	"full_name",	"fname",	"mname",	"lname",	"dob",	"gender",	"mobile_no",	"email_id",	"category",	"father_name",	"mother_name",	"guradian_no",	"enrollment_no",	"adhar_card_no",	"c_address",	"city",	"pincode",	"handicap",	"student_medium"]
 
@@ -275,14 +276,15 @@ app.post('/submitApplication',async (req, res) => {
             if(!docs.empty){
                 
               
-              let a  =   admin.firestore().doc('students/'+docs.docs?.[0].id).set(dat,{merge:true})
+              let a  =   admin.firestore().doc('students/'+docs?.docs?.[0]?.id).set(dat,{merge:true})
             }else{
-              let a  =   admin.firestore().doc('students/').add(dat)
+              let a  =   admin.firestore().collection('students').add(dat)
 
             }
  
        return  res.status(200).send({id:id,message:'Application submitted !!'});
     }catch(err){
+      console.log(err)
       return  res.status(400).send({ message: 'Token Expired !!',status:400 ,err});
     }
    
