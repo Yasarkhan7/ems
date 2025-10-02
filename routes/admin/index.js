@@ -169,9 +169,9 @@ app.post('/getAllApplications',async (req, res) => {
         if(!data[tok.email])
             return    res.status(500).send({ message: 'Unrestricted !!' });
 
-        console.log(req.body)
+        // console.log(req.body)
 
-        let q = admin.firestore().collection('applications').where('status','==',req.query?.mode ||'PENDING').where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',exam).where('type','==',scheme).where('branch','==',branch).where('semester','==',semester)
+        let q = admin.firestore().collection('testapplications').where('status','==',req.query?.mode ||'PENDING').where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',exam).where('type','==',scheme).where('branch','==',branch).where('semester','==',semester)
 
         if(prn)
             q.where('prn','==',prn)
@@ -276,9 +276,14 @@ app.post('/approveApplication',async (req, res) => {
             return    res.status(500).send({ message: 'Unrestricted !!' });
 
         // console.log(req.body)
+  let count =0
+        if(body.department=='HOME SCIENCE' && body.type=='MSC-CBCS')
+        count  = (await admin.firestore().collection('applications').where('status','==','APPROVED').where('department','==',body.department).where('type','==',body.type).where('semester','==',body.semester).where('exam','==',body.exam).count().get()).data().count
+        else if( body.type=='MSC-CBCS')
+          count  = (await admin.firestore().collection('applications').where('status','==','APPROVED').where('department','!=','HOME SCIENCE').where('type','==',body.type).where('semester','==',body.semester).where('exam','==',body.exam).count().get()).data().count
+        else
+        count  = (await admin.firestore().collection('applications').where('status','==','APPROVED').where('type','==',body.type).where('semester','==',body.semester).where('exam','==',body.exam).count().get()).data().count
 
-        let count  = (await admin.firestore().collection('applications').where('status','==','APPROVED').where('type','==',body.type).where('semester','==',body.semester).where('exam','==',body.exam).count().get()).data().count
-        
         let obj
         seq.forEach(el=>{
             if(el.scheme==body.type && el.type==body.exam && el.semester==body.semester){
@@ -339,32 +344,56 @@ const seq=[{
   },{
     scheme:'BSC-CBCS',semester:4,type:'Backlog', startsFrom:220701
   },{
-    scheme:'BSC-CBCS',semester:5,type:'Backlog', startsFrom:220821
+    scheme:'BSC-CBCS',semester:5,type:'Backlog', startsFrom:220941
   },{
-    scheme:'BSC-CBCS',semester:6,type:'Backlog', startsFrom:220941
+    scheme:'BSC-CBCS',semester:6,type:'Backlog', startsFrom:221051
   },
 
   ,{
-    scheme:'BSCHS-CBCS',semester:1,type:'Backlog', startsFrom:221051
+    scheme:'BSCHS-CBCS',semester:1,type:'Backlog', startsFrom:221201
   },{
-    scheme:'BSCHS-CBCS',semester:2,type:'Backlog', startsFrom:221056
+    scheme:'BSCHS-CBCS',semester:2,type:'Backlog', startsFrom:221206
   },{
-    scheme:'BSCHS-CBCS',semester:3,type:'Backlog', startsFrom:221061
+    scheme:'BSCHS-CBCS',semester:3,type:'Backlog', startsFrom:221211
   },{
-    scheme:'BSCHS-CBCS',semester:4,type:'Backlog', startsFrom:221070
+    scheme:'BSCHS-CBCS',semester:4,type:'Backlog', startsFrom:221216
   },{
-    scheme:'BSCHS-CBCS',semester:5,type:'Backlog', startsFrom:221080
+    scheme:'BSCHS-CBCS',semester:5,type:'Backlog', startsFrom:221221
   },{
-    scheme:'BSCHS-CBCS',semester:6,type:'Backlog', startsFrom:221086
-  }
+    scheme:'BSCHS-CBCS',semester:6,type:'Backlog', startsFrom:22131
+  },
+
+
+  {
+    scheme:'MSC-CBCS',semester:1,type:'Backlog', startsFrom:221231
+  },
+  {
+    scheme:'MSC-CBCS',semester:2,type:'Backlog', startsFrom:221241
+  },{
+    scheme:'MSC-CBCS',semester:3,type:'Backlog', startsFrom:221251
+  },{
+    scheme:'MSC-CBCS',semester:4,type:'Backlog', startsFrom:221261
+  },
+
+  {
+    scheme:'MSCHS-CBCS',semester:1,type:'Backlog', startsFrom:221271
+  },
+  {
+    scheme:'MSCHS-CBCS',semester:2,type:'Backlog', startsFrom:221276
+  },{
+    scheme:'MSCHS-CBCS',semester:3,type:'Backlog', startsFrom:221281
+  },{
+    scheme:'MSCHS-CBCS',semester:4,type:'Backlog', startsFrom:221286
+  },
+
   ,{
-    scheme:'UG-NEP-OLD',semester:1,type:'Backlog', startsFrom:221091
+    scheme:'UG-NEP-OLD',semester:1,type:'Backlog', startsFrom:221291
   },{
-    scheme:'UG-NEP-OLD',semester:2,type:'Backlog', startsFrom:221171
+    scheme:'UG-NEP-OLD',semester:2,type:'Backlog', startsFrom:221371
   },{
-    scheme:'UG-NEP-OLD',semester:3,type:'Backlog', startsFrom:221251
+    scheme:'UG-NEP-OLD',semester:3,type:'Backlog', startsFrom:221451
   },{
-    scheme:'UG-NEP-OLD',semester:4,type:'Backlog', startsFrom:221351
+    scheme:'UG-NEP-OLD',semester:4,type:'Backlog', startsFrom:221551
   },{
     scheme:'UG-NEP-OLD',semester:5,type:'Regular', startsFrom:111401
   },
@@ -372,10 +401,10 @@ const seq=[{
     scheme:'UG-NEP-NEW',semester:1,type:'Regular', startsFrom:110001
   },
   {
-    scheme:'UG-NEP-NEW',semester:1,type:'Backlog', startsFrom:221551
+    scheme:'UG-NEP-NEW',semester:1,type:'Backlog', startsFrom:221751
   },
   {
-    scheme:'UG-NEP-NEW',semester:2,type:'Backlog', startsFrom:221851
+    scheme:'UG-NEP-NEW',semester:2,type:'Backlog', startsFrom:222051
   },
   
   ,{
@@ -386,19 +415,19 @@ const seq=[{
   },
   ,
   {
-    scheme:'PG-NEP',semester:1,type:'Backlog', startsFrom:222151
+    scheme:'PG-NEP',semester:1,type:'Backlog', startsFrom:222351
   },
   {
-    scheme:'PG-NEP',semester:2,type:'Backlog', startsFrom:222301
+    scheme:'PG-NEP',semester:2,type:'Backlog', startsFrom:222501
   },
   
   {
     scheme:'PG-NEP',semester:3,type:'Regular', startsFrom:112351
   },
   {
-    scheme:'PG-NEP',semester:3,type:'Backlog', startsFrom:222351
+    scheme:'PG-NEP',semester:3,type:'Backlog', startsFrom:222551
   },
   {
-    scheme:'PG-NEP',semester:4,type:'Backlog', startsFrom:222451
+    scheme:'PG-NEP',semester:4,type:'Backlog', startsFrom:222651
   },
   ]

@@ -266,7 +266,7 @@ app.post('/submitApplication',async (req, res) => {
             if(docs.empty)
                docs= (await admin.firestore().collection('students').where('email_id','==',body.email_id).get())
 
-            let headers =  ["registration_no",	"full_name",	"fname",	"mname",	"lname",	"dob",	"gender",	"mobile_no",	"email_id",	"category",	"father_name",	"mother_name",	"guradian_no",	"enrollment_no",	"adhar_card_no",	"c_address",	"city",	"pincode",	"handicap",	"student_medium"]
+            let headers =  ["registration_no",	"full_name",	"fname",	"mname",	"lname",'abcid',	"dob",	"gender",	"mobile_no",	"email_id",	"category",	"father_name",	"mother_name",	"guradian_no",	"enrollment_no",	"adhar_card_no",	"c_address",	"city",	"pincode",	"handicap",	"student_medium"]
 
             let dat=Object.create({})
             headers.forEach(el=>{
