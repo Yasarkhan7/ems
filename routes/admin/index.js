@@ -171,8 +171,9 @@ app.post('/getAllApplications',async (req, res) => {
 
         // console.log(req.body)
 
-        let q = admin.firestore().collection('testapplications').where('status','==',req.query?.mode ||'PENDING').where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',exam).where('type','==',scheme).where('branch','==',branch).where('semester','==',semester)
+        let qr = admin.firestore().collection('applications').where('status','==',req.query?.mode ||'PENDING').where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',exam).where('type','==',scheme).where('branch','==',branch).where('semester','==',semester)
 
+        let q
         if(prn)
             q.where('prn','==',prn)
         let dat = []
