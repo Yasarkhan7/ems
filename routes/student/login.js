@@ -189,35 +189,65 @@ app.get('/uploads/:filename',async (req, res) => {
 });
 
 
-app.get('/getExamStatus',async (req, res) => {
+app.get('/getAllApplications',async (req, res) => {
 
     try{
         let tok = jwt.verify(req.query?.token,KEY)
 
      
-       let datas  = (await  admin.database().ref('/exam/config/status').get()).val() || {
-        fromYear:'',
-        toYear:'',
-        active:true,
-        applicationStart:'',
-        applicationEnd:'',
-        applicationFinal:'',
-        isWinter:true
-        }
+        let qr
+        // console.log(tok)
 
-        if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())
-            datas.active=true
-        else
-            datas.active=false
+        if(tok.prn)
+        qr = admin.firestore().collection('applications').where('prn','==',tok.prn).get()
+      else if(tok?.email_id){
+        qr = admin.firestore().collection('applications').where('email_id','==',tok.email_id).get()
+      }
+      
+      let dat=[]
 
-       return  res.status(200).send(datas);
+      ;(await qr).forEach(el=>{
+       dat.push ({...el.data(),id:el.id})
+      })
+
+       return  res.status(200).send(dat);
     }catch(err){
+      console.log(err)
       return  res.status(500).send({ message: err });
 
     }
    
 });
 
+
+app.get('/getExamStatus',async (req, res) => {
+
+  try{
+      let tok = jwt.verify(req.query?.token,KEY)
+
+   
+     let datas  = (await  admin.database().ref('/exam/config/status').get()).val() || {
+      fromYear:'',
+      toYear:'',
+      active:true,
+      applicationStart:'',
+      applicationEnd:'',
+      applicationFinal:'',
+      isWinter:true
+      }
+
+      if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())
+          datas.active=true
+      else
+          datas.active=false
+
+     return  res.status(200).send(datas);
+  }catch(err){
+    return  res.status(500).send({ message: err });
+
+  }
+ 
+});
 
 app.post('/submitApplication',async (req, res) => {
 
@@ -244,8 +274,15 @@ app.post('/submitApplication',async (req, res) => {
 
         // body.prn='sdswdd'
         // console.log(acedemic_year,season)
-        let apps  = (await admin.firestore().collection('applications').where('type','==',body.type).where('acedemic_year','==',acedemic_year).where('season','==',season).where('enrollment_no','==',body.enrollment_no ||'').where('exam','==',body.exam ||'').where('semester','==',body.semester ||'').count().get()).data().count
-        console.log(apps)
+        let apps
+        let q  =   admin.firestore().collection('applications').where('type','==',body.type).where('acedemic_year','==',acedemic_year).where('season','==',season).where('exam','==',body.exam).where('semester','==',body.semester)
+        
+        if(body.prn)
+        apps = (await q.where('enrollment_no','in',[parseInt(body.prn+''),body.enrollment_no]).count().get()).data().count
+      else
+      apps = (await q.where('email_id','in',[body.email_id,tok.email_id ||'']).count().get()).data().count
+
+        // console.log(apps)
         if(apps)
             return res.status(402).send({ message: 'Form already Submitted !!' ,status:402})
 
