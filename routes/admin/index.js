@@ -40,7 +40,7 @@ app.post('/login', async (req, res) => {
             return res.status(400).send({ message: 'Incorrect Password !!' });
 
  
-        let token = jwt.sign({ email,access:admin.access}, KEY, { expiresIn: '1h' });
+        let token = jwt.sign({ email,access:admin.access}, KEY, { expiresIn: '6h' });
 
        return res.status(200).send({token,email,access:admin.access});
     } catch (error) {

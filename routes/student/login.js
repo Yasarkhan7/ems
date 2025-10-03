@@ -39,7 +39,7 @@ app.get('/login', async (req, res) => {
             return res.status(404).send({ message: 'User not found.' });
         }
         const data  = datae.docs[0].data()
-        let token = jwt.sign({ ...data, type, prn }, KEY, { expiresIn: '1h' });
+        let token = jwt.sign({ ...data, type, prn }, KEY, { expiresIn: '6h' });
         res.status(200).send({ name: data?.full_name, token, type, prn });
     }else{
 
