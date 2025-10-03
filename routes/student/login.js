@@ -39,8 +39,8 @@ app.get('/login', async (req, res) => {
             return res.status(404).send({ message: 'User not found.' });
         }
         const data  = datae.docs[0].data()
-        let token = jwt.sign({ ...data, type, prn }, KEY, { expiresIn: '6h' });
-        res.status(200).send({ name: data?.full_name, token, type, prn });
+        let token = jwt.sign({ ...data, type, prn,new:neww }, KEY, { expiresIn: '6h' });
+        res.status(200).send({ name: data?.full_name, token, type, prn,new:neww });
     }else{
 
         const b = await generateOTP(email,prn ||'',type)
@@ -109,11 +109,12 @@ app.get('/getSubjects', async (req, res) => {
 
         const filt = []
 
+        console.log(semester)
+
 
         data.forEach(el=>{
             // if(scheme==el.scheme)
-                // console.log(el.scheme)
-            if((el.semester==semester && scheme==el.scheme) )
+            if(((semester=='All' || el.semester==semester) && scheme==el.scheme) )
                 filt.push(el)
         })
   

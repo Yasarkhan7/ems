@@ -342,7 +342,7 @@ app.post('/updateApplication',async (req, res) => {
 
       let q =await admin.firestore().doc('applications/'+body.id).set({...body},{merge:true})
 
-     return  res.status(200).send({message:'Data  updated !!',rollNo});
+     return  res.status(200).send({message:'Data  updated !!'});
   }catch(err){
       console.log(err)
     return  res.status(400).send({ message: 'Token expired !!' });
@@ -351,6 +351,26 @@ app.post('/updateApplication',async (req, res) => {
  
 });
 
+app.get('/deleteApplication',async (req, res) => {
+
+  const data = require('../../data/allAdmin.json');
+
+  try{
+      let tok = jwt.verify(req.query?.token,KEY)
+
+      if(!data[tok.email])
+          return    res.status(500).send({ message: 'Unrestricted !!' });
+
+      let q =await admin.firestore().doc('applications/'+req.query.id).delete()
+
+     return  res.status(200).send({message:'Data  updated !!'});
+  }catch(err){
+      console.log(err)
+    return  res.status(400).send({ message: 'Token expired !!' });
+
+  }
+ 
+});
 
 app.use(express.json({ limit: '100mb' }));
 
