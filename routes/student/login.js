@@ -299,13 +299,13 @@ async function sendOtpOnEMail(email,otp){
     port: 465,
     secure: true, // true for 465, false for 587
       auth: {
-        user: 'splintzer.com@gmail.com',        // your Gmail address
-        pass: 'gmlrzwdemgekmjls',            // your Gmail app password
+        user: 'info@splintzer.com',        // your Gmail address
+        pass: 'Yasar22@',            // your Gmail app password
       }
     })
 
    return  transporter.sendMail({
-        from:'GVISH Login <splintzer.com@gmail.com>',
+        from:'GVISH Login <info@splintzer.com>',
         to:email,
         subject:'Signin to GVISH College',
         html:`<!DOCTYPE html>
