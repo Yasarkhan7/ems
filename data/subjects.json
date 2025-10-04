@@ -15242,7 +15242,7 @@
     {
       "code":"PG1RM01GEO",
       "head":"Research   Methodology  and IPR(GEOGRAPHY)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15252,7 +15252,7 @@
     {
       "code":"PG1RM01MUS",
       "head":"Research Methodology in Music(MUSIC)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15262,7 +15262,7 @@
     {
       "code":"PG1RM01PSY",
       "head":"Research Methods in Psychology and IPR-I(PSYCHOLOGY)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15272,7 +15272,7 @@
     {
       "code":"PG1RM01BOT",
       "head":"Research Methodology and IPR(BOTANY)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15282,7 +15282,7 @@
     {
       "code":"PG1RM01CHE",
       "head":"Research Methodology and IPR(CHEMISTRY)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15292,7 +15292,7 @@
     {
       "code":"PG1RM01ZOO",
       "head":"Research    Methodology and IPR(ZOOLOGY)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15302,7 +15302,7 @@
     {
       "code":"PG1RM01MAT",
       "head":"Research   Methodology   in Mathematics and IPR(MATHEMATICS)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15312,7 +15312,7 @@
     {
       "code":"PG1RM01STT",
       "head":"Research Methodology(STATISTICS)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15322,7 +15322,7 @@
     {
       "code":"PG1RM01PHY",
       "head":"Research Methodology & IPR(PHYSICS)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -15332,7 +15332,7 @@
     {
       "code":"PG1RM01 TXT",
       "head":"Research Methodology & IPR(HOME SCIENCE)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
