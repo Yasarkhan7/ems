@@ -22,8 +22,6 @@ app.get('/login', async (req, res) => {
         return res.status(400).send({ message: 'Restricted Access !!' });
     }
 
-
-
     try {
         // Use a parameterized query to prevent SQL injection
 
@@ -199,7 +197,7 @@ app.get('/getAllApplications',async (req, res) => {
         // console.log(tok)
 
         if(tok.prn)
-        qr = admin.firestore().collection('applications').where('prn','==',tok.prn).get()
+        qr = admin.firestore().collection('applications').where('enrollment_no','in',[tok.prn,parseInt(''+tok.prn)]).get()
       else if(tok?.email_id){
         qr = admin.firestore().collection('applications').where('email_id','==',tok.email_id).get()
       }
@@ -257,7 +255,10 @@ app.post('/submitApplication',async (req, res) => {
 
         let tok = jwt.verify(req.query?.token,KEY)
 
+        if(!tok.prn && tok.email_id != body.email_id)
+          return  res.status(401).send({ message: 'Data insufficient !!',status:401 });
 
+       
 
         let datas  = (await  admin.database().ref('/exam/config/status').get()).val()
         if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())

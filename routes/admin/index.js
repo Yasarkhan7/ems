@@ -212,6 +212,43 @@ app.post('/getAllApplications',async (req, res) => {
 });
 
 
+
+app.get('/getAllApplicationsCount',async (req, res) => {
+
+  const data = require('../../data/allAdmin.json');
+
+  try{
+      let tok = jwt.verify(req.query?.token,KEY)
+
+      if(!data[tok.email])
+          return    res.status(500).send({ message: 'Unrestricted !!' });
+
+      // console.log(req.body)
+      let dat={
+        pending: (await admin.firestore().collection('applications').where('status','==','PENDING').count().get()).data().count,
+        paid: (await admin.firestore().collection('applications').where('status','==','PAID').count().get()).data().count,
+        approved: (await admin.firestore().collection('applications').where('status','==','APPROVED').count().get()).data().count,
+      }
+
+      
+    //   let deleted = 0
+    //  ;(await admin.firestore().collection('applications').where('dob','==','2025-10-05').get()).forEach(async el=>{
+    //     admin.firestore().doc('applications/'+el.id).delete().then(el=>{
+    //       deleted++
+    //       console.log(deleted)
+    //     })
+    //   })
+      
+     return  res.status(200).send(dat);
+  }catch(err){
+    console.log(err)
+    return  res.status(400).send({ message: 'Token expired !!' });
+
+  }
+ 
+});
+
+
 app.get('/approvePayment',async (req, res) => {
 
     const  {id,fee_late,invoiceId,fee_paid}=req.query
@@ -371,6 +408,9 @@ app.get('/deleteApplication',async (req, res) => {
   }
  
 });
+
+
+
 
 app.use(express.json({ limit: '100mb' }));
 
