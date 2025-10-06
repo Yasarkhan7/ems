@@ -14652,7 +14652,7 @@
     {
       "code":"PG1RM01MAR",
       "head":"संशोधन पद्धती व बौद्धिक संपदा अधिकार(MARATHI)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -14662,7 +14662,7 @@
     {
       "code":"PG1RM01HIN",
       "head":"हिंदी में शोध प्रक्रिया व बौद्धिक संपदा अधिकार(HINDI)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -14672,7 +14672,7 @@
     {
       "code":"PG1RM01ENG",
       "head":"Research Methodology & IPR(ENGLISH)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -14682,7 +14682,7 @@
     {
       "code":"PG1RM01SAN",
       "head":"संशोधन पद्धति: व बौद्धिक संपदा अधिकार(SANSKRIT)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -14691,8 +14691,8 @@
     },
     {
       "code":"PG1RM01URD",
-      "head":"Research   Methodology   & IPR(URDU)",
-      "type":"RM",
+      "head":"Research   Methodology   & IPR (URDU)",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -14702,7 +14702,7 @@
     {
       "code":"PG1RM01ECO",
       "head":"Research   Methodology   & IPR(ECONOMICS)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -14712,7 +14712,7 @@
     {
       "code":"PG1RM01POL",
       "head":"Research   Methodology   & IPR(POLITICAL SCIENCE)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -14722,7 +14722,7 @@
     {
       "code":"PG1RM01PHI",
       "head":"Research Methods inPhilosophy(PHILOSOPHY)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -14732,7 +14732,7 @@
     {
       "code":"PG1RM01HIS",
       "head":"Historiography & IPR(HISTORY)",
-      "type":"RM",
+      "type":"FP",
       "sub_type":"Research Methodology",
       "semester":"1",
       "scheme":"PG-NEP",
@@ -16396,7 +16396,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -16406,7 +16406,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -16416,7 +16416,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -16426,7 +16426,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -16436,7 +16436,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -16446,7 +16446,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -16456,7 +16456,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -16466,7 +16466,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -16476,7 +16476,7 @@
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28274,7 +28274,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28284,7 +28284,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28294,7 +28294,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28304,7 +28304,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28314,7 +28314,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28324,7 +28324,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28334,7 +28334,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28344,7 +28344,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -28354,7 +28354,7 @@
       "sub_type":"Research Methodology",
       "semester":"3",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29224,7 +29224,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29234,7 +29234,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29244,7 +29244,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29254,7 +29254,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29264,7 +29264,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29274,7 +29274,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29284,7 +29284,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29294,7 +29294,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     },
     {
@@ -29304,7 +29304,7 @@
       "sub_type":"Research Methodology",
       "semester":"4",
       "scheme":"PG-NEP",
-      "practical":"NO",
+      "practical":"YES",
       "branch":"NULL"
     }
 ]
