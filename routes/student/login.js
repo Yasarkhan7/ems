@@ -257,8 +257,9 @@ app.post('/submitApplication',async (req, res) => {
 
         if(!tok.prn && tok.email_id != body.email_id)
           return  res.status(401).send({ message: 'Data insufficient !!',status:401 });
+        else if (tok.prn &&   tok.prn != body.prn)
+          return  res.status(401).send({ message: 'Data insufficient !!',status:401 });
 
-       
 
         let datas  = (await  admin.database().ref('/exam/config/status').get()).val()
         if(datas?.applicationFinal && new Date(datas?.applicationFinal || 0).getTime()>Date.now())

@@ -15842,7 +15842,7 @@
     {
       "code":"PG2OJT/FPBOT",
       "head":"OJT/FP (Botany)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15852,7 +15852,7 @@
     {
       "code":"PG2OJT/FPCHE",
       "head":"On  Job  Training/ Field Project (Chemistry)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15862,7 +15862,7 @@
     {
       "code":"PG2OJT/FPGEO",
       "head":"Village Survey – Data Collection and Analysis (Geography)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15872,7 +15872,7 @@
     {
       "code":"PG2OJT/FPMAT",
       "head":"OJT / Field Project (Mathematics)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15882,7 +15882,7 @@
     {
       "code":"PG2OJT/FPMUS",
       "head":"OJT / FP (Music)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15892,7 +15892,7 @@
     {
       "code":"PG2OJT/FPPHY",
       "head":"OJT/FP (Physics)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15902,7 +15902,7 @@
     {
       "code":"PG2OJT/FPPSY",
       "head":"OJT / FP (Psychology)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15912,7 +15912,7 @@
     {
       "code":"PG2OJT/FPSTT",
       "head":"OJT/FP (Statistics)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15922,7 +15922,7 @@
     {
       "code":"PG2OJT/FPZOO",
       "head":"OJT/FP (Zoology)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -15932,7 +15932,7 @@
     {
       "code":"PG2OJT/FPTXT",
       "head":"OJT  / FP (Home Science)",
-      "type":"OJT",
+      "type":"RM",
       "sub_type":"OJT",
       "semester":"2",
       "scheme":"PG-NEP",
@@ -17936,6 +17936,7 @@
     },
     
 {"code":"U6HTSUPM06","head":" Supplementary English","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTMARE03","head":"साहित्य शास्त्र","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTHINE03","head":"हिंदी साहित्य और गद्य का विकास II-","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"C U6HTSANE03","head":" Philosophy, Religion and Culture in Sanskrit tradition (A)","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTURDE03","head":" Non Fiction","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPERE03","head":" JAM E JAM - II","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPOLD07","head":" Modern Political Analysis","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPHI D06","head":" Introduction to Indian Philosophy","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTHISCO6","head":" History of Modern World (From 1871-1945 CE)","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTECOE03","head":"Financial Institute & Markets","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTSUPM06","head":" Supplementary English","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTMARE03","head":"साहित्य शास्त्र","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTHINE03","head":"हिंदी साहित्य और गद्य का विकास II-","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"C U6HTSANE03","head":" Philosophy, Religion and Culture in Sanskrit tradition (A)","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTURDE03","head":" Non Fiction","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPERE03","head":" JAM E JAM - II","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPOLD07","head":" Modern Political Analysis","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPHI D06","head":" Introduction to Indian Philosophy","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTHISCO6","head":" History of Modern World (From 1871-1945 CE)","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTECOE03","head":"Financial Institute & Markets","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTENGE03","head":" Introduction to Contemporary Literary Theory II","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTMARE04","head":"साठोत्तरी वाड्मयीन प्रवाह","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTHINE04","head":"प्रवासी साहित्य","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTSANE04","head":" Indian Perspective in Personality Development (B)","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTURDE04","head":"Iqbal Fan Aur Falsafa","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPERE04","head":"MANZOOMAT E IQBAL","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPOLD08","head":"Western Political Thought","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTPHI E02","head":"Introduction to Western Philosophy","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTHISEO2","head":"History of Modern Maharashtra (From 1818-1960 CE)","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},{"code":"U6HTECOE04","head":" Basic Econometrics","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"NO","branch":"BA"},
+{"code":"U6HTGEOE07","head":" Tourism Geography","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTMUSE07","head":"Folk Music of Maharashtra","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTPSYE05","head":" Psychological Testing and Statistics-II","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTHECC06","head":"Home Science extension and Education","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTGEOE07","head":" Tourism Geography","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTMUSE07","head":"Folk Music of Maharashtra","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTPSYE05","head":" Psychological Testing and Statistics-II","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTHECC06","head":"Home Science extension and Education","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTGEOE08","head":" Introduction to World Geography","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTMUSE08","head":"History of Natya Sangit","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTPSYE06","head":"Psychology for living-2","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTHECE02","head":"Food preservation","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},
 
     {
       "code":"U5HTENGG01",
@@ -18037,7 +18038,6 @@
       "practical":"NO",
       "branch":"BA"
     },
-    {"code":"U6HTGEOE07","head":" Tourism Geography","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTMUSE07","head":"Folk Music of Maharashtra","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTPSYE05","head":" Psychological Testing and Statistics-II","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTHECC06","head":"Home Science extension and Education","type":"DSE","sub_type":"SUB(3)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTGEOE07","head":" Tourism Geography","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTMUSE07","head":"Folk Music of Maharashtra","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTPSYE05","head":" Psychological Testing and Statistics-II","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTHECC06","head":"Home Science extension and Education","type":"DSE","sub_type":"SUB(4)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTGEOE08","head":" Introduction to World Geography","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTMUSE08","head":"History of Natya Sangit","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTPSYE06","head":"Psychology for living-2","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U6HTHECE02","head":"Food preservation","type":"DSE","sub_type":"SUB(5)","semester":"6","scheme":"BA-CBCS","practical":"YES","branch":"BA"},
 
     {
       "code":"U6HTGEOG01",
@@ -18046,7 +18046,7 @@
       "sub_type":"Generic Elective",
       "semester":"6",
       "scheme":"BA-CBCS",
-      "practical":"YES",
+      "practical":"NO",
       "branch":"BA"
     },
     {
@@ -18056,7 +18056,7 @@
       "sub_type":"Generic Elective",
       "semester":"6",
       "scheme":"BA-CBCS",
-      "practical":"YES",
+      "practical":"NO",
       "branch":"BA"
     },
     {
@@ -18066,7 +18066,7 @@
       "sub_type":"Generic Elective",
       "semester":"6",
       "scheme":"BA-CBCS",
-      "practical":"YES",
+      "practical":"NO",
       "branch":"BA"
     },
     {
@@ -18076,8 +18076,153 @@
       "sub_type":"Generic Elective",
       "semester":"6",
       "scheme":"BA-CBCS",
-      "practical":"YES",
+      "practical":"NO",
       "branch":"BA"
+    },
+
+
+
+
+    {
+      "code":"U5HTENGG01",
+      "head":" Creative Writing",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTMARG01",
+      "head":"स्पर्धा परीक्षेसाठी मराठी",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTHING03",
+      "head":"रचनात्मक लेखन",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTSANG01",
+      "head":" Sanskrit Media",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTURDG01",
+      "head":" Origin and Development of Urdu Language",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTPERG01",
+      "head":"GULISTAN E SADI",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTPOLG01",
+      "head":"Know our Constitution",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6 HTPHI G01",
+      "head":" Introduction to Philosophy",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTHIS GO1",
+      "head":" SOCIAL REFORMERS OF MODERN INDIA",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTECOG01",
+      "head":" Know your Budget",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+
+    {
+      "code":"U6HTGEOG01",
+      "head":"Disaster Management",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HPMUSG02",
+      "head":"Performance of Film Music",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U5HTPSYG01",
+      "head":"Stress Management",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6HTHECG01",
+      "head":"Nutrition and Fitness",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"NO",
+      "branch":"BSC"
     },
     {
       "code":"U1HTENGC01",
@@ -20133,6 +20278,7 @@
       "practical":"YES",
       "branch":"BSC"
     },
+   
     {
       "code":"U6STMATC10",
       "head":"Mathematical Methods",
@@ -20163,86 +20309,11 @@
       "practical":"YES",
       "branch":"BSC"
     },
-    {
-      "code":"U6STBOTE04",
-      "head":" Pharmacognosy and Forensic Botany",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
 
 
 
-    {
-      "code":"U6STCHEE04",
-      "head":" Drugs and Dyes",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
 
-    {
-      "code":"U6STZOOE04",
-      "head":"Animal physiology",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },{
-      "code":"U6STSTAE04",
-      "head":"Operations Research II",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },{
-      "code":"U6STPHYE04",
-      "head":"Quantum Mechanics and Nuclear Physics",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },{
-      "code":"U6STMATE04",
-      "head":"Mechanics",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },{
-      "code":"U6STCOME04",
-      "head":"Search Engine Optimization-II",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },{
-      "code":"U6STELEE04",
-      "head":"Advance Microprocessor and Microcontroller 8051",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-
+  
 
 
     {
@@ -20378,106 +20449,6 @@
       "branch":"BSC"
     },
     {
-      "code":"U6STMATE05",
-      "head":"Mathematical Statistics",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STMATE06",
-      "head":" Lattices and Boolean Algebra",
-      "type":"SUB",
-      "sub_type":"SUB(1)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STBOTE03",
-      "head":"Plant Biotechnology and Tissue culture",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STCHEE03",
-      "head":"Nuclear and Nano Chemistry",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STZOOE03",
-      "head":"Molecular Biology",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STSTAE03",
-      "head":"Applied Statistics-II",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STPHYE03",
-      "head":"Statistical Mechanics and Solid State Physics",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STMATC10",
-      "head":"Mathematical Methods",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STCOME03",
-      "head":"Dot Net Technology",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STELEE03",
-      "head":"Biomedical Electronics",
-      "type":"SUB",
-      "sub_type":"SUB(2)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
       "code":"U6STBOTE04",
       "head":" Pharmacognosy and Forensic Botany",
       "type":"SUB",
@@ -20507,86 +20478,11 @@
       "practical":"YES",
       "branch":"BSC"
     },
-    {
-      "code":"U6STBOTE03",
-      "head":"Plant Biotechnology and Tissue culture",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STCHEE03",
-      "head":"Nuclear and Nano Chemistry",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STZOOE03",
-      "head":"Molecular Biology",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STSTAE03",
-      "head":"Applied Statistics-II",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STPHYE03",
-      "head":"Statistical Mechanics and Solid State Physics",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STMATC10",
-      "head":"Mathematical Methods",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STCOME03",
-      "head":"Dot Net Technology",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
-    {
-      "code":"U6STELEE03",
-      "head":"Biomedical Electronics",
-      "type":"SUB",
-      "sub_type":"SUB(3)",
-      "semester":"6",
-      "scheme":"BSC-CBCS",
-      "practical":"YES",
-      "branch":"BSC"
-    },
+   
+  
+   
+ 
+    
     {
       "code":"U6STBOTE04",
       "head":" Pharmacognosy and Forensic Botany",
@@ -20617,6 +20513,108 @@
       "practical":"YES",
       "branch":"BSC"
     },
+
+
+
+    {
+      "code":"U6STCHEE04",
+      "head":" Drugs and Dyes",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+
+    {
+      "code":"U6STZOOE04",
+      "head":"Animal physiology",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STSTAE04",
+      "head":"Operations Research II",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STPHYE04",
+      "head":"Quantum Mechanics and Nuclear Physics",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STMATE04",
+      "head":"Mechanics",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STCOME04",
+      "head":"Search Engine Optimization-II",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STELEE04",
+      "head":"Advance Microprocessor and Microcontroller 8051",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STBOTE04",
+      "head":" Pharmacognosy and Forensic Botany",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STMATE05",
+      "head":"Mathematical Statistics",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STMATE06",
+      "head":" Lattices and Boolean Algebra",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+   
+
+
     {
       "code":"U6STBOTG01",
       "head":" Herbal Cosmetics (GEC)",
@@ -20697,6 +20695,95 @@
       "practical":"YES",
       "branch":"BSC"
     },
+
+
+
+
+    {
+      "code":"U6STBOTG01",
+      "head":" Herbal Cosmetics (GEC)",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BA-CBCS",
+      "practical":"YES",
+      "branch":"BA"
+    },
+    {
+      "code":"U6STCHEG01",
+      "head":"Environmental Chemistry",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BA-CBCS",
+      "practical":"YES",
+      "branch":"BA"
+    },
+    {
+      "code":"U6STZOOG01",
+      "head":"Basic Health Care",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BA-CBCS",
+      "practical":"YES",
+      "branch":"BA"
+    },
+    {
+      "code":"U6STSTAG01",
+      "head":"Statistical techniques for Research Method",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BA-CBCS",
+      "practical":"YES",
+      "branch":"BA"
+    },
+    {
+      "code":"U6STPHYG01",
+      "head":"Electricity and Magnetism",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BA-CBCS",
+      "practical":"YES",
+      "branch":"BA"
+    },
+    {
+      "code":"U6STELEG01",
+      "head":"Mathematical Reasoning(GEC)",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BA-CBCS",
+      "practical":"YES",
+      "branch":"BA"
+    },
+    {
+      "code":"U6STCOMG01",
+      "head":"Introduction to Big Data",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BA-CBCS",
+      "practical":"YES",
+      "branch":"BA"
+    },
+    {
+      "code":"U6STELEG01",
+      "head":" Electronics Instrumentation",
+      "type":"GE",
+      "sub_type":"GE",
+      "semester":"6",
+      "scheme":"BA-CBCS",
+      "practical":"YES",
+      "branch":"BA"
+    },
+
+
+
+
+
     {
       "code":"U1ITHSCA01/ U1IPHSCA01",
       "head":"Communication Skill in E",
