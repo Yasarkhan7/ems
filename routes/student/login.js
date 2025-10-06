@@ -335,11 +335,17 @@ const nodemailer  = require('nodemailer')
 async function sendOtpOnEMail(email,otp){
 
   const transporter =   nodemailer.createTransport({
-    
+    host: 'smtp.hostinger.com',
+    port: 465,
+    secure: true, // true for 465, false for 587
+      auth: {
+        user: 'info@probookingz.com',        // your Gmail address
+        pass: 'Yasarkhan22@',            // your Gmail app password
+      }
     })
 
    return  transporter.sendMail({
-        from:'GVISH Login <info@splintzer.com>',
+        from:'GVISH Login <info@probookingz.com>',
         to:email,
         subject:'Signin to GVISH College',
         html:`<!DOCTYPE html>
