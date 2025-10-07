@@ -20313,7 +20313,358 @@
 
 
 
+    {
+      "code":"U6STCHEE04",
+      "head":" Drugs and Dyes",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+
+    {
+      "code":"U6STZOOE04",
+      "head":"Animal physiology",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STSTAE04",
+      "head":"Operations Research II",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STPHYE04",
+      "head":"Quantum Mechanics and Nuclear Physics",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STMATE04",
+      "head":"Mechanics",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STCOME04",
+      "head":"Search Engine Optimization-II",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },{
+      "code":"U6STELEE04",
+      "head":"Advance Microprocessor and Microcontroller 8051",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STBOTE04",
+      "head":" Pharmacognosy and Forensic Botany",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STMATE05",
+      "head":"Mathematical Statistics",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STMATE06",
+      "head":" Lattices and Boolean Algebra",
+      "type":"SUB",
+      "sub_type":"SUB(1)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+   
   
+
+
+
+    {
+      "code":"U6STBOTE03",
+      "head":"Plant Biotechnology and Tissue culture",
+      "type":"SUB",
+      "sub_type":"SUB(2)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STCHEE03",
+      "head":"Nuclear and Nano Chemistry",
+      "type":"SUB",
+      "sub_type":"SUB(2)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STZOOE03",
+      "head":"Molecular Biology",
+      "type":"SUB",
+      "sub_type":"SUB(2)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STSTAE03",
+      "head":"Applied Statistics-II",
+      "type":"SUB",
+      "sub_type":"SUB(2)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STPHYE03",
+      "head":"Statistical Mechanics and Solid State Physics",
+      "type":"SUB",
+      "sub_type":"SUB(2)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+   
+    {
+      "code":"U6STMATC10",
+      "head":"Mathematical Methods",
+      "type":"SUB",
+      "sub_type":"SUB(2)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STCOME03",
+      "head":"Dot Net Technology",
+      "type":"SUB",
+      "sub_type":"SUB(2)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STELEE03",
+      "head":"Biomedical Electronics",
+      "type":"SUB",
+      "sub_type":"SUB(2)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+
+
+  
+    {
+      "code":"U6STBOTE03",
+      "head":"Plant Biotechnology and Tissue culture",
+      "type":"SUB",
+      "sub_type":"SUB(3)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STCHEE03",
+      "head":"Nuclear and Nano Chemistry",
+      "type":"SUB",
+      "sub_type":"SUB(3)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STZOOE03",
+      "head":"Molecular Biology",
+      "type":"SUB",
+      "sub_type":"SUB(3)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STSTAE03",
+      "head":"Applied Statistics-II",
+      "type":"SUB",
+      "sub_type":"SUB(3)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STPHYE03",
+      "head":"Statistical Mechanics and Solid State Physics",
+      "type":"SUB",
+      "sub_type":"SUB(3)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+   
+    {
+      "code":"U6STMATC10",
+      "head":"Mathematical Methods",
+      "type":"SUB",
+      "sub_type":"SUB(3)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STCOME03",
+      "head":"Dot Net Technology",
+      "type":"SUB",
+      "sub_type":"SUB(3)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STELEE03",
+      "head":"Biomedical Electronics",
+      "type":"SUB",
+      "sub_type":"SUB(3)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+
+
+
+
+    {
+      "code":"U6STBOTE03",
+      "head":"Plant Biotechnology and Tissue culture",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STCHEE03",
+      "head":"Nuclear and Nano Chemistry",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STZOOE03",
+      "head":"Molecular Biology",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STSTAE03",
+      "head":"Applied Statistics-II",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STPHYE03",
+      "head":"Statistical Mechanics and Solid State Physics",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+   
+    {
+      "code":"U6STMATC10",
+      "head":"Mathematical Methods",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STCOME03",
+      "head":"Dot Net Technology",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+    {
+      "code":"U6STELEE03",
+      "head":"Biomedical Electronics",
+      "type":"SUB",
+      "sub_type":"SUB(4)",
+      "semester":"6",
+      "scheme":"BSC-CBCS",
+      "practical":"YES",
+      "branch":"BSC"
+    },
+
 
 
     {
@@ -20382,6 +20733,10 @@
       "practical":"YES",
       "branch":"BSC"
     },
+
+
+
+
     {
       "code":"U6STCHEE04",
       "head":" Drugs and Dyes",
