@@ -8589,6 +8589,9 @@
       "practical":"NO",
       "branch":"NULL"
     },
+
+
+
     {
       "code":"FY2MJBOT",
       "head":"Diversity of Phanerogams",
@@ -9019,6 +9022,51 @@
       "practical":"YES",
       "branch":"NULL"
     },
+
+
+
+    {
+      "code":"SY3CCINS",
+      "head":"NCC",
+      "type":"CC",
+      "sub_type":"CC",
+      "semester":"3",
+      "scheme":"UG-NEP-OLD",
+      "practical":"NO",
+      "branch":"NULL"
+    },
+    {
+      "code":"SY3CCINS",
+      "head":"NSS",
+      "type":"CC",
+      "sub_type":"CC",
+      "semester":"3",
+      "scheme":"UG-NEP-OLD",
+      "practical":"NO",
+      "branch":"NULL"
+    },
+    {
+      "code":"SY3CCINS",
+      "head":"SPORTS",
+      "type":"CC",
+      "sub_type":"CC",
+      "semester":"3",
+      "scheme":"UG-NEP-OLD",
+      "practical":"NO",
+      "branch":"NULL"
+    },
+    {
+      "code":"SY3CCINS",
+      "head":"CULTURAL",
+      "type":"CC",
+      "sub_type":"CC",
+      "semester":"3",
+      "scheme":"UG-NEP-OLD",
+      "practical":"NO",
+      "branch":"NULL"
+    },
+
+
     {
       "code":"FY2SECCOM",
       "head":"IoT Technology",
