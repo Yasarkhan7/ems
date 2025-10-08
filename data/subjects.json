@@ -17658,6 +17658,19 @@
       "practical":"NO",
       "branch":"BA"
     },
+
+    {
+      "code":"U3STENVA01",
+      "head":"Environmental Studies",
+      "type":"EVS",
+      "sub_type":"EVS",
+      "semester":"3",
+      "scheme":"BA-CBCS",
+      "practical":"NO",
+      "branch":"BA"
+    },
+
+
     {"code":"U3HTGEOCO3","head":"Oceanography","type":"DSC","sub_type":"SUB(3)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTMUSC03","head":"Theoretical & Practical Study of Indian Music","type":"DSC","sub_type":"SUB(3)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTPSYDO3","head":"Social Psychology-I","type":"DSC","sub_type":"SUB(3)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTHECC03","head":"Fundamental of Textile Science and Clothing","type":"DSC","sub_type":"SUB(3)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTGEOCO3","head":"Oceanography","type":"DSC","sub_type":"SUB(4)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTMUSC03","head":"Theoretical & Practical Study of Indian Music","type":"DSC","sub_type":"SUB(4)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTPSYDO3","head":"Social Psychology-I","type":"DSC","sub_type":"SUB(4)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTHECC03","head":"Fundamental of Textile Science and Clothing","type":"DSC","sub_type":"SUB(4)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTGEOCO3","head":"Oceanography","type":"DSC","sub_type":"SUB(5)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTMUSC03","head":"Theoretical & Practical Study of Indian Music","type":"DSC","sub_type":"SUB(5)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTPSYDO3","head":"Social Psychology-I","type":"DSC","sub_type":"SUB(5)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},{"code":"U3HTHECC03","head":"Fundamental of Textile Science and Clothing","type":"DSC","sub_type":"SUB(5)","semester":"3","scheme":"BA-CBCS","practical":"YES","branch":"BA"},
     {
       "code":"U3HTGEOSO1",
@@ -18171,6 +18184,21 @@
       "practical":"NO",
       "branch":"BSC"
     },
+
+
+
+    {
+      "code":"U4SPENVA01",
+      "head":"Environmental Studies",
+      "type":"EVS",
+      "sub_type":"EVS",
+      "semester":"4",
+      "scheme":"BA-CBCS",
+      "practical":"NO",
+      "branch":"BA"
+    },
+
+
     {
       "code":"U6HTURDG01",
       "head":" Origin and Development of Urdu Language",

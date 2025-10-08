@@ -1,0 +1,11 @@
+{
+    "examAdmin@gmail.com":{
+        "pass":"CFCFSDIAH123###",
+        "access":["exam"]
+    },
+
+    "accountAdmin@gmail.com":{
+        "pass":"CFC##gtFSDIAH123###",
+        "access":["account"]
+    }
+}

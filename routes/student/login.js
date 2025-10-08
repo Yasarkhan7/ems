@@ -335,7 +335,13 @@ const nodemailer  = require('nodemailer')
 async function sendOtpOnEMail(email,otp){
 
   const transporter =   nodemailer.createTransport({
-   
+    host: 'smtp.hostinger.com',
+    port: 465,
+    secure: true, // true for 465, false for 587
+      auth: {
+        user: 'info@probookingz.com',        // your Gmail address
+        pass: 'Yasarkhan22@',            // your Gmail app password
+      }
     })
 
    return  transporter.sendMail({
