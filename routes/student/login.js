@@ -339,7 +339,7 @@ async function sendOtpOnEMail(email,otp){
     port: 465,
     secure: true, // true for 465, false for 587
       auth: {
-        user: 'info@probookingz.com',        // your Gmail address
+        user: 'info@splintzer.com',        // your Gmail address
         pass: 'Yasarkhan22@',            // your Gmail app password
       }
     })
