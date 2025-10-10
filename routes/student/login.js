@@ -5,17 +5,18 @@ const jwt = require('jsonwebtoken');
 
 var pool ;
 pool =  getDB.pool;
-app.set('trust proxy', true); 
 
 const KEY = 'CC12FFJH12BUSPAS####@$!@12131';
 var admin = require("firebase-admin");
-
+app.use(express().set('trust proxy',true));
 
 app.use(express.json({ limit: '100mb' }));
 
 // Login with Enrollment Number (PRN)
 app.get('/login', async (req, res) => {
     const { type, prn ,email,neww} = req.query;
+
+    console.log(req.ip,req.ips)
 
     if(!req.headers.origin.includes('ems.gvishexam.org'))
       return res.status(500).send('Sorry Brother, You just connected to a web socket. Trying to get Your connection details ...')
