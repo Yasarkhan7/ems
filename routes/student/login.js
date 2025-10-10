@@ -43,7 +43,7 @@ app.get('/login', async (req, res) => {
         res.status(200).send({ name: data?.full_name, token, type, prn,new:neww });
     }else{
 
-        const b = await generateOTP(email,prn ||'',type,req.ip)
+        const b = await generateOTP(email,prn ||'',type,req?.connection?.remoteAddress)
 
         return res.status(200).send({status:1,message:'OTP has been sent to the both mobile number and email'})
 
