@@ -16,6 +16,8 @@ app.use(express.json({ limit: '100mb' }));
 app.get('/login', async (req, res) => {
     const { type, prn ,email,neww} = req.query;
 
+    if(!req.headers.origin.includes('ems.gvishexam.org'))
+      return res.status(500).send('Sorry Brother, You just connected to a web socket. Trying to get Your connection details ...')
 
 
     if (!type || (neww+''=="true" && !email) ||(neww+''=='false' && !prn)) {
@@ -41,7 +43,7 @@ app.get('/login', async (req, res) => {
         res.status(200).send({ name: data?.full_name, token, type, prn,new:neww });
     }else{
 
-        const b = await generateOTP(email,prn ||'',type)
+        const b = await generateOTP(email,prn ||'',type,req.ip)
 
         return res.status(200).send({status:1,message:'OTP has been sent to the both mobile number and email'})
 
@@ -49,7 +51,7 @@ app.get('/login', async (req, res) => {
     }
 
     } catch (error) {
-        // console.error('Login error:', error);
+        console.error('Login error:', error);
         res.status(403).send({ message: error });
     }
 });
@@ -81,7 +83,7 @@ app.get('/otpConfirm',async (req,res)=>{
 })
 
 
-async function generateOTP(cred,uid,type){
+async function generateOTP(cred,uid,type,ip){
 
         let otp = '';
         for (let i = 0; i < 4; i++) {
@@ -92,7 +94,7 @@ async function generateOTP(cred,uid,type){
            await  sendOtpOnEMail(cred,otp)
         // else
         // await sendOtpOnNumber(cred,otp)
-    admin.database().ref('auth/otp/'+cred.replaceAll('.','-')).set({otp:otp,expiry:new Date().getTime()+10*60*1000,uid,type})
+    admin.database().ref('auth/otp/'+cred.replaceAll('.','-')).set({otp:otp,expiry:new Date().getTime()+10*60*1000,uid,type,ip})
 return true
 }
 
@@ -335,11 +337,17 @@ const nodemailer  = require('nodemailer')
 async function sendOtpOnEMail(email,otp){
 
   const transporter =   nodemailer.createTransport({
-   
+    host: 'smtp.hostinger.com',
+    port: 465,
+    secure: true, // true for 465, false for 587
+      auth: {
+        user: 'info@splintzer.com',        // your Gmail address
+        pass: 'Yasar22@',           // your Gmail app password
+      }
     })
 
    return  transporter.sendMail({
-        from:'GVISH Login <info@probookingz.com>',
+        from:'GVISH Login <info@splintzer.com>',
         to:email,
         subject:'Signin to GVISH College',
         html:`<!DOCTYPE html>
