@@ -184,9 +184,12 @@ app.post('/getAllApplications',async (req, res) => {
         let datii
         if(prn){
           qr =   q.where('prn','==',prn)
-
-      
         datii = (await qr?.get())
+
+        if(datii.empty & !(prn+'')?.includes('@')){
+          qr = q.where('enrollment_no','in',[parseInt(prn+''),prn])
+          datii = (await qr?.get())
+        }
 
         if(datii.empty){
           qr = q.where('email_id','==',prn)

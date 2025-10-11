@@ -8,6 +8,7 @@ app.use(cors())
 
 const login = require('./routes/student/login')
 const admins = require('./routes/admin/index')
+const control = require('./routes/exam/control')
 
 
 
@@ -37,6 +38,7 @@ admin.initializeApp({
 
 app.use('/student',login)
 app.use('/admin',admins)
+app.use('/control',control)
 
         // let apps  = ( admin.firestore().collection('applications').where('acedemic_year','==','2025-2026').where('season','==','Winter').where('prn','==','').where('exam','==','Regular').where('semester','==', '2').count().get()).then(el=>{
         //   console.log(el)

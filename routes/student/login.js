@@ -16,7 +16,7 @@ app.use(express.json({ limit: '100mb' }));
 app.get('/login', async (req, res) => {
     const { type, prn ,email,neww} = req.query;
 
-    console.log(req.ip,req.ips)
+    // console.log(req.ip,req.ips)
 
     if(!req.headers.origin.includes('ems.gvishexam.org'))
       return res.status(500).send('Sorry Brother, You just connected to a web socket. Trying to get Your connection details ...')
